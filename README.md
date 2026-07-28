@@ -3,7 +3,8 @@
 A fork of [MATE System Monitor](https://github.com/mate-desktop/mate-system-monitor)
 with live integration for [detritusd](https://github.com/TTR-IND/detritusd),
 a small helper daemon that sits on top of Linux's existing memory
-management (PSI, `MADV_COLD`, kernel page-table coldness accounting).
+management (PSI, `MADV_COLD`, kernel page-table coldness accounting) —
+not a replacement for it.
 
 ![Gonzo System Monitor screenshot](scrn.png)
 

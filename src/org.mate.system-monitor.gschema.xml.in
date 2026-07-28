@@ -447,11 +447,11 @@
     </key>
     <key name="col-28-width" type="i">
       <default>100</default>
-      <summary>Width of process “Idle Streak” column</summary>
+      <summary>Width of process “Coldness %” column</summary>
     </key>
     <key name="col-28-visible" type="b">
       <default>true</default>
-      <summary>Show process “Idle Streak” column on startup</summary>
+      <summary>Show process “Coldness %” column on startup</summary>
     </key>
   </schema>
   <schema gettext-domain="@GETTEXT_PACKAGE@" id="org.mate.system-monitor.disktreenew" path="/org/mate/system-monitor/disktreenew/">
