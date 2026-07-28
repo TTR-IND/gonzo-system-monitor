@@ -1,0 +1,1526 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR MATE Desktop Environment team
+# This file is distributed under the same license as the mate-system-monitor package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Stefano Karapetsas <stefano@karapetsas.com>, 2022
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: mate-system-monitor 1.27.0\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/mate-system-monitor/issues\n"
+"POT-Creation-Date: 2023-09-04 20:48+0200\n"
+"PO-Revision-Date: 2018-03-12 08:25+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>, 2022\n"
+"Language-Team: Bengali (https://app.transifex.com/mate/teams/13566/bn/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: bn\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: mate-system-monitor.appdata.xml.in:7 mate-system-monitor.desktop.in.in:3
+msgid "MATE System Monitor"
+msgstr ""
+
+#: mate-system-monitor.appdata.xml.in:8
+msgid "A Process and resource monitor for MATE Desktop"
+msgstr ""
+
+#: mate-system-monitor.appdata.xml.in:10
+msgid ""
+"MATE System Monitor allows to graphically view and manipulate the running "
+"processes on your system. It also provides an overview of available "
+"resources, such as CPU and memory."
+msgstr ""
+
+#: mate-system-monitor.appdata.xml.in:15
+msgid ""
+"MATE System Monitor is a fork of GNOME System Monitor and part of the MATE "
+"Desktop Environment. If you would like to know more about MATE and System "
+"Monitor, please visit the project's home page."
+msgstr ""
+
+#: mate-system-monitor.desktop.in.in:4 src/callbacks.cpp:229
+#: src/interface.ui:7
+msgid "System Monitor"
+msgstr "সিস্টেম পর্যবেক্ষক"
+
+#: mate-system-monitor.desktop.in.in:5 src/callbacks.cpp:232
+msgid "View current processes and monitor system state"
+msgstr "বর্তমান প্রসেস দেখুন ও সিস্টেমের অবস্থা পর্যবেক্ষন করুন"
+
+#. Translators: Search terms to find this application. Do NOT translate or
+#. localize the semicolons! The list MUST also end with a semicolon!
+#: mate-system-monitor.desktop.in.in:15
+msgid "MATE;system;monitor;process;list;view;current;resources;"
+msgstr ""
+
+#: org.mate.mate-system-monitor.policy.in.in:11
+msgid "Kill process"
+msgstr ""
+
+#: org.mate.mate-system-monitor.policy.in.in:12
+msgid "Privileges are required to control other users' processes"
+msgstr ""
+
+#: org.mate.mate-system-monitor.policy.in.in:22
+msgid "Renice process"
+msgstr ""
+
+#: org.mate.mate-system-monitor.policy.in.in:23
+msgid "Privileges are required to change the priority of processes"
+msgstr ""
+
+#: src/argv.cpp:21
+msgid "Show the System tab"
+msgstr "সিস্টেমের ট্যাব প্রদর্শন করা হবে"
+
+#: src/argv.cpp:26
+msgid "Show the Processes tab"
+msgstr ""
+
+#: src/argv.cpp:31
+msgid "Show the Resources tab"
+msgstr ""
+
+#: src/argv.cpp:36
+msgid "Show the File Systems tab"
+msgstr ""
+
+#: src/callbacks.cpp:211
+msgid ""
+"System Monitor is free software; you can redistribute it and/or modify it "
+"under the terms of the GNU General Public License as published by the Free "
+"Software Foundation; either version 2 of the License, or (at your option) "
+"any later version."
+msgstr ""
+
+#: src/callbacks.cpp:215
+msgid ""
+"System Monitor is distributed in the hope that it will be useful, but "
+"WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY "
+"or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for"
+" more details."
+msgstr ""
+
+#: src/callbacks.cpp:219
+msgid ""
+"You should have received a copy of the GNU General Public License along with"
+" System Monitor; if not, write to the Free Software Foundation, Inc., 51 "
+"Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA"
+msgstr ""
+
+#: src/callbacks.cpp:231
+msgid "About System Monitor"
+msgstr ""
+
+#: src/callbacks.cpp:233
+msgid ""
+"Copyright © 2001-2004 Kevin Vandersloot\n"
+"Copyright © 2005-2007 Benoît Dejean\n"
+"Copyright © 2011-2020 MATE developers"
+msgstr ""
+
+#: src/callbacks.cpp:240
+msgid "translator-credits"
+msgstr ""
+"অঙ্কুর প্রকল্পের পক্ষে, সায়মিন্দু দাশগুপ্ত <unmadindu@bengalinux.org>\n"
+"মাহে আলম খান <makl10n@yahoo.com>\n"
+"সামিয়া নিয়ামতুল্লাহ <mailsamia2001@yahoo.com>\n"
+"লোবা ইয়াসমীন <loba@ankur.org.bd>\n"
+"ইসরাত জাহান <israt@ankur.org.bd>"
+
+#: src/disks.cpp:404 src/memmaps.cpp:327
+msgid "Device"
+msgstr "ডিভাইস"
+
+#: src/disks.cpp:405
+msgid "Directory"
+msgstr "ডিরেক্টরি"
+
+#: src/disks.cpp:406 src/gsm_color_button.c:179 src/openfiles.cpp:256
+msgid "Type"
+msgstr "ধরণ"
+
+#: src/disks.cpp:407
+msgid "SubVolume"
+msgstr ""
+
+#: src/disks.cpp:408
+msgid "Total"
+msgstr "সর্বমোট"
+
+#: src/disks.cpp:409
+msgid "Free"
+msgstr "মুক্ত"
+
+#: src/disks.cpp:410
+msgid "Available"
+msgstr "বিদ্যমান"
+
+#: src/disks.cpp:411
+msgid "Used"
+msgstr "ব্যবহৃত"
+
+#: src/gsm_color_button.c:155
+msgid "Fraction"
+msgstr "ভগ্নাংশ"
+
+#. TRANSLATORS: description of the pie color picker's (mem, swap) filled
+#. percentage property
+#: src/gsm_color_button.c:157
+msgid "Percentage full for pie color pickers"
+msgstr ""
+
+#: src/gsm_color_button.c:164
+msgid "Title"
+msgstr "শিরোনাম"
+
+#: src/gsm_color_button.c:165
+msgid "The title of the color selection dialog"
+msgstr "রং নির্বাচন ডায়লগের শিরোনাম"
+
+#: src/gsm_color_button.c:166 src/gsm_color_button.c:585
+msgid "Pick a Color"
+msgstr "একটি রং নির্বাচন করুন"
+
+#: src/gsm_color_button.c:172
+msgid "Current Color"
+msgstr "বর্তমান রং"
+
+#: src/gsm_color_button.c:173
+msgid "The selected color"
+msgstr "নির্বাচিত রং"
+
+#: src/gsm_color_button.c:180
+msgid "Type of color picker"
+msgstr "রং নির্বাচনের ধরন"
+
+#: src/gsm_color_button.c:502
+msgid "Received invalid color data\n"
+msgstr "রং সংক্রান্ত প্রাপ্ত তথ্য কার্যকর নয়\n"
+
+#: src/gsm_color_button.c:608
+msgid "Click to set graph colors"
+msgstr "গ্রাফের রং নির্ধারণ করতে ক্লিক করুন"
+
+#. xgettext: noun, top level menu.
+#. "File" did not make sense for system-monitor
+#: src/interface.cpp:52
+msgid "_Monitor"
+msgstr "পর্যবেক্ষক (_M)"
+
+#: src/interface.cpp:53
+msgid "_Edit"
+msgstr "সম্পাদনা (_E)"
+
+#: src/interface.cpp:54
+msgid "_View"
+msgstr "প্রদর্শন (_V)"
+
+#: src/interface.cpp:55
+msgid "_Help"
+msgstr "সহায়িকা (_H)"
+
+#: src/interface.cpp:57
+msgid "Search for _Open Files"
+msgstr "খোলা ফাইল অনুসন্ধান করুন (_O)"
+
+#: src/interface.cpp:58
+msgid "Search for open files"
+msgstr "খোলা ফাইল অনুসন্ধান করুন"
+
+#: src/interface.cpp:59
+msgid "_Quit"
+msgstr "প্রস্থান (_Q)"
+
+#: src/interface.cpp:60
+msgid "Quit the program"
+msgstr "প্রোগ্রাম বন্ধ করুন"
+
+#: src/interface.cpp:63
+msgid "_Stop Process"
+msgstr "প্রসেস বন্ধ করুন (_S)"
+
+#: src/interface.cpp:64
+msgid "Stop process"
+msgstr "প্রসেস বন্ধ করুন"
+
+#: src/interface.cpp:65
+msgid "_Continue Process"
+msgstr "প্রসেস চালিয়ে যাওয়া হবে (_C)"
+
+#: src/interface.cpp:66
+msgid "Continue process if stopped"
+msgstr "প্রসেস বন্ধ করা হলে চালু করা হবে"
+
+#: src/interface.cpp:68 src/procdialogs.cpp:113
+msgid "_End Process"
+msgid_plural "_End Processes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/interface.cpp:69
+msgid "Force process to finish normally"
+msgstr "বলপূর্বক প্রসেসটি স্বাভাবিকরূপে সমাপ্ত করুন"
+
+#: src/interface.cpp:70 src/procdialogs.cpp:107
+msgid "_Kill Process"
+msgid_plural "_Kill Processes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/interface.cpp:71
+msgid "Force process to finish immediately"
+msgstr "বলপূর্বক প্রসেসটি এই মুহূর্তে সমাপ্ত করুন"
+
+#: src/interface.cpp:72
+msgid "_Change Priority"
+msgstr ""
+
+#: src/interface.cpp:73
+msgid "Change the order of priority of process"
+msgstr "প্রসেসের প্রাধান্যের ক্রম পরিবর্তন করুন"
+
+#: src/interface.cpp:74
+msgid "_Preferences"
+msgstr "পছন্দ (_P)"
+
+#: src/interface.cpp:75
+msgid "Configure the application"
+msgstr "অ্যাপ্লিকেশন কনফিগার করুন"
+
+#: src/interface.cpp:77
+msgid "_Refresh"
+msgstr "রিফ্রেস (_R)"
+
+#: src/interface.cpp:78
+msgid "Refresh the process list"
+msgstr "প্রসেসের তালিকা রিফ্রেস করা হবে"
+
+#: src/interface.cpp:80
+msgid "_Memory Maps"
+msgstr "মেমরি ম্যাপ (_M)"
+
+#: src/interface.cpp:81
+msgid "Open the memory maps associated with a process"
+msgstr "প্রসেসের সাথে যুক্ত মেমরি ম্যাপ খুলুন"
+
+#. Translators: this means 'Files that are open' (open is no verb here
+#: src/interface.cpp:83
+msgid "Open _Files"
+msgstr "ফাইল খুলুন (_F)"
+
+#: src/interface.cpp:84
+msgid "View the files opened by a process"
+msgstr "প্রসেস দ্বারা খোলা ফাইল দেখুন"
+
+#: src/interface.cpp:85
+msgid "_Properties"
+msgstr "বৈশিষ্ট্যাবলী (_P)"
+
+#: src/interface.cpp:86
+msgid "View additional information about a process"
+msgstr ""
+
+#: src/interface.cpp:89
+msgid "_Contents"
+msgstr "বিষয়বস্তু (_C)"
+
+#: src/interface.cpp:90
+msgid "Open the manual"
+msgstr "ম্যানুয়াল খুলুন"
+
+#: src/interface.cpp:91
+msgid "_About"
+msgstr "পরিচিতি (_A)"
+
+#: src/interface.cpp:92
+msgid "About this application"
+msgstr "অ্যাপ্লিকেশন পরিচিতি"
+
+#: src/interface.cpp:97
+msgid "_Dependencies"
+msgstr "নির্ভরতা (_D)"
+
+#: src/interface.cpp:98
+msgid "Show parent/child relationship between processes"
+msgstr "প্রসেসের মধ্যে প্যারেন্ট/চাইল্ড সম্পর্ক প্রদর্শন করা হবে"
+
+#: src/interface.cpp:105
+msgid "_Active Processes"
+msgstr "সক্রিয় প্রসেস (_A)"
+
+#: src/interface.cpp:106
+msgid "Show active processes"
+msgstr "সক্রিয় প্রসেস প্রদর্শন করা হবে"
+
+#: src/interface.cpp:107
+msgid "A_ll Processes"
+msgstr "সব প্রসেস (_l)"
+
+#: src/interface.cpp:108
+msgid "Show all processes"
+msgstr "সব প্রসেস প্রদর্শন করা হবে"
+
+#: src/interface.cpp:109
+msgid "M_y Processes"
+msgstr "ব্যবহারকারীর প্রসেস (_y)"
+
+#: src/interface.cpp:110
+msgid "Show only user-owned processes"
+msgstr ""
+
+#: src/interface.cpp:115 src/util.cpp:167
+msgid "Very High"
+msgstr ""
+
+#: src/interface.cpp:116
+msgid "Set process priority to very high"
+msgstr ""
+
+#: src/interface.cpp:117 src/util.cpp:169
+msgid "High"
+msgstr "উঁচু"
+
+#: src/interface.cpp:118
+msgid "Set process priority to high"
+msgstr ""
+
+#: src/interface.cpp:119 src/util.cpp:171
+msgid "Normal"
+msgstr "স্বাভাবিক"
+
+#: src/interface.cpp:120
+msgid "Set process priority to normal"
+msgstr ""
+
+#: src/interface.cpp:121 src/util.cpp:173
+msgid "Low"
+msgstr "নিম্নস্বরে"
+
+#: src/interface.cpp:122
+msgid "Set process priority to low"
+msgstr ""
+
+#: src/interface.cpp:123 src/util.cpp:175
+msgid "Very Low"
+msgstr ""
+
+#: src/interface.cpp:124
+msgid "Set process priority to very low"
+msgstr ""
+
+#: src/interface.cpp:125
+msgid "Custom"
+msgstr "স্বনির্ধারিত"
+
+#: src/interface.cpp:126
+msgid "Set process priority manually"
+msgstr ""
+
+#. Translators: color picker title, %s is CPU, Memory, Swap, Receiving,
+#. Sending
+#: src/interface.cpp:259
+#, c-format
+msgid "Pick a Color for '%s'"
+msgstr ""
+
+#: src/interface.cpp:287 src/procproperties.cpp:153
+msgid "CPU"
+msgstr "CPU"
+
+#: src/interface.cpp:289
+#, c-format
+msgid "CPU%d"
+msgstr "CPU%d"
+
+#: src/interface.cpp:324 src/interface.ui:257 src/proctable.cpp:268
+#: src/procproperties.cpp:143
+msgid "Memory"
+msgstr "মেমরি"
+
+#: src/interface.cpp:337 src/interface.ui:244
+msgid "Swap"
+msgstr "Swap"
+
+#: src/interface.cpp:365 src/interface.ui:351
+msgid "Receiving"
+msgstr "গ্রহন করা হচ্ছে"
+
+#: src/interface.cpp:384
+msgid "Sending"
+msgstr "পাঠানো হচ্ছে"
+
+#: src/interface.ui:45
+msgid "System"
+msgstr "সিস্টেম"
+
+#: src/interface.ui:91
+msgid "End _Process"
+msgstr "প্রসেস সমাপ্ত করুন (_P)"
+
+#: src/interface.ui:114 src/preferences.ui:310
+msgid "Processes"
+msgstr "প্রসেস"
+
+#: src/interface.ui:140
+msgid "CPU History"
+msgstr "CPU ব্যবহারের ইতিহাস"
+
+#: src/interface.ui:206
+msgid "Memory and Swap History"
+msgstr "মেমরি ও Swap ব্যবহার সংক্রান্ত ইতিহাস"
+
+#: src/interface.ui:315
+msgid "Network History"
+msgstr "নেটওয়ার্ক ব্যবহার সংক্রান্ত ইতিহাস"
+
+#: src/interface.ui:364
+msgid "Total Received"
+msgstr "সর্বমোট প্রাপ্ত"
+
+#: src/interface.ui:377
+msgid "Sent"
+msgstr ""
+
+#: src/interface.ui:390
+msgid "Total Sent"
+msgstr "সর্বমোট প্রেরিত"
+
+#: src/interface.ui:482 src/preferences.ui:437
+msgid "Resources"
+msgstr "রিসোর্স"
+
+#: src/interface.ui:522 src/preferences.ui:649
+msgid "File Systems"
+msgstr "ফাইল সিস্টেম"
+
+#: src/load-graph.cpp:176
+#, c-format
+msgid "%u second"
+msgid_plural "%u seconds"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/load-graph.cpp:349
+msgid "not available"
+msgstr ""
+
+#. xgettext: 540MiB (53 %) of 1.0 GiB
+#: src/load-graph.cpp:352
+#, c-format
+msgid "%s (%.1f%%) of %s"
+msgstr ""
+
+#: src/load-graph.cpp:603 src/load-graph.cpp:610 src/util.cpp:506
+#, c-format
+msgid "%s/s"
+msgstr "%s/s"
+
+#: src/lsof.cpp:123
+msgid "Error"
+msgstr "ত্রুটি"
+
+#: src/lsof.cpp:124
+#, c-format
+msgid "'%s' is not a valid Perl regular expression."
+msgstr ""
+
+#: src/lsof.cpp:270
+msgid "Process"
+msgstr "প্রসেস"
+
+#: src/lsof.cpp:282
+msgid "PID"
+msgstr "PID"
+
+#: src/lsof.cpp:292 src/memmaps.cpp:305
+msgid "Filename"
+msgstr "ফাইলের নাম"
+
+#. gtk_window_set_modal(GTK_WINDOW(dialog), TRUE);
+#: src/lsof.cpp:309
+msgid "Search for Open Files"
+msgstr "খোলা ফাইল অনুসন্ধান করা হয়"
+
+#: src/lsof.cpp:336
+msgid "_Name contains:"
+msgstr "নামের মধ্যে অন্তর্ভুক্ত (_N):"
+
+#. The default accelerator collides with the default close accelerator.
+#: src/lsof.cpp:357
+msgid "C_lear"
+msgstr "মুছে ফেলুন (_C)"
+
+#: src/lsof.cpp:361
+msgid "Case insensitive matching"
+msgstr "অক্ষরের ছাঁদ বিনা মেলানো হবে"
+
+#: src/lsof.cpp:369
+msgid "S_earch results:"
+msgstr "অনুসন্ধানের ফলাফল (_e):"
+
+#. xgettext: virtual memory start
+#: src/memmaps.cpp:307
+msgid "VM Start"
+msgstr "VM প্রারম্ভ"
+
+#. xgettext: virtual memory end
+#: src/memmaps.cpp:309
+msgid "VM End"
+msgstr "VM সমাপ্ত"
+
+#. xgettext: virtual memory syze
+#: src/memmaps.cpp:311
+msgid "VM Size"
+msgstr "VM আকার"
+
+#: src/memmaps.cpp:312
+msgid "Flags"
+msgstr "ফ্ল্যাগ"
+
+#. xgettext: virtual memory offset
+#: src/memmaps.cpp:314
+msgid "VM Offset"
+msgstr "VM অফসেট"
+
+#. xgettext: memory that has not been modified since
+#. it has been allocated
+#: src/memmaps.cpp:317
+msgid "Private clean"
+msgstr "অপরিবর্তিত প্রাইভেট মেমরি"
+
+#. xgettext: memory that has been modified since it
+#. has been allocated
+#: src/memmaps.cpp:320
+msgid "Private dirty"
+msgstr "পরিবর্তিত প্রাইভেট মেমরি"
+
+#. xgettext: shared memory that has not been modified
+#. since it has been allocated
+#: src/memmaps.cpp:323
+msgid "Shared clean"
+msgstr "অপরিবর্তিত শেয়ারকৃত মেমরি"
+
+#. xgettext: shared memory that has been modified
+#. since it has been allocated
+#: src/memmaps.cpp:326
+msgid "Shared dirty"
+msgstr "পরিবর্তিত শেয়ারকৃত মেমরি"
+
+#: src/memmaps.cpp:328
+msgid "Inode"
+msgstr "Inode"
+
+#: src/memmaps.cpp:432
+msgid "Memory Maps"
+msgstr "মেমরি ম্যাপ"
+
+#: src/memmaps.cpp:444
+#, c-format
+msgid "_Memory maps for process \"%s\" (PID %u):"
+msgstr "\"%s\" (PID %u) প্রসেসের মেমরি ম্যাপ (_M):"
+
+#: src/openfiles.cpp:38
+msgid "file"
+msgstr "ফাইল"
+
+#: src/openfiles.cpp:40
+msgid "pipe"
+msgstr "পাইপ"
+
+#: src/openfiles.cpp:42
+msgid "IPv6 network connection"
+msgstr "IPv6 নেটওয়ার্ক সংযোগ"
+
+#: src/openfiles.cpp:44
+msgid "IPv4 network connection"
+msgstr "IPv4 নেটওয়ার্ক সংযোগ"
+
+#: src/openfiles.cpp:46
+msgid "local socket"
+msgstr "স্থানীয় সকেট"
+
+#: src/openfiles.cpp:48
+msgid "unknown type"
+msgstr "অজানা ধরণ"
+
+#. Translators: "FD" here means "File Descriptor". Please use
+#. a very short translation if possible, and at most
+#. 2-3 characters for it to be able to fit in the UI.
+#: src/openfiles.cpp:255
+msgid "FD"
+msgstr "FD"
+
+#: src/openfiles.cpp:257
+msgid "Object"
+msgstr "বস্তু"
+
+#: src/openfiles.cpp:328
+msgid "Open Files"
+msgstr "খোলা ফাইল"
+
+#: src/openfiles.cpp:349
+#, c-format
+msgid "_Files opened by process \"%s\" (PID %u):"
+msgstr "প্রসেস \"%s\" (PID %u) দ্বারা খোলা ফাইল (_F):"
+
+#: src/org.mate.system-monitor.gschema.xml.in:6
+msgid "Main window size and position in the form (width, height, xpos, ypos)"
+msgstr ""
+
+#: src/org.mate.system-monitor.gschema.xml.in:10
+msgid ""
+"If TRUE, main window will open maximized, and saved size and position values"
+" are ignored."
+msgstr ""
+
+#: src/org.mate.system-monitor.gschema.xml.in:14
+msgid "Show process dependencies in tree form"
+msgstr "প্রসেসের নির্ভরশীলতাগুলো ট্রি-বিন্যাসে প্রদর্শিত হবে"
+
+#: src/org.mate.system-monitor.gschema.xml.in:18
+msgid "Solaris mode for CPU percentage"
+msgstr "CPU-র শতাংশের জন্য Solaris মোড"
+
+#: src/org.mate.system-monitor.gschema.xml.in:19
+msgid ""
+"If TRUE, system-monitor operates in 'Solaris mode' where a task's CPU usage "
+"is divided by the total number of CPUs. Otherwise, it operates in 'Irix "
+"mode'."
+msgstr ""
+
+#: src/org.mate.system-monitor.gschema.xml.in:23
+msgid "Enable/Disable smooth refresh"
+msgstr "স্মুথ রিফ্রেশ ব্যবস্থা সক্রিয়/নিষ্ক্রিয় করুন"
+
+#: src/org.mate.system-monitor.gschema.xml.in:27
+msgid "Show warning dialog when killing processes"
+msgstr "প্রসেস kill করার সময় সতর্কতাসূচক ডায়লগ বাক্স প্রদর্শন করা হবে"
+
+#: src/org.mate.system-monitor.gschema.xml.in:31
+msgid "Time in milliseconds between updates of the process view"
+msgstr "প্রসেস প্রদর্শন হালনাগাদের মধ্যবর্তী সময়, মিলিসেকেন্ডে প্রকাশিত"
+
+#: src/org.mate.system-monitor.gschema.xml.in:35
+msgid "Time in milliseconds between updates of the graphs"
+msgstr "গ্রাফ হালনাগাদের মধ্যবর্তী সময়, মিলিসেকেন্ডে প্রকাশিত"
+
+#: src/org.mate.system-monitor.gschema.xml.in:39
+msgid "Whether information about all file systems should be displayed"
+msgstr ""
+
+#: src/org.mate.system-monitor.gschema.xml.in:40
+msgid ""
+"Whether to display information about all file systems (including types like "
+"'autofs' and 'procfs'). Useful for getting a list of all currently mounted "
+"file systems."
+msgstr ""
+
+#: src/org.mate.system-monitor.gschema.xml.in:44
+msgid "Time in milliseconds between updates of the devices list"
+msgstr ""
+"ডিভাইস তালিকা হালনাগাদ করার মধ্যে অন্তর্বর্তী সময়কাল, মিলিসেকেন্ডে প্রকাশিত"
+
+#: src/org.mate.system-monitor.gschema.xml.in:48
+msgid ""
+"Determines which processes to show by default. 0 is All, 1 is user, and 2 is"
+" active"
+msgstr ""
+"ডিফল্টরূপে প্রদর্শিত প্রসেসের তালিকা নির্ধারণ করতে ব্যবহৃত। মান 0(০) হলে "
+"সমস্ত, 1(১) হলে শুধুমাত্র ব্যবহারকারীর ও 2(২) হলে বর্তমানে সক্রিয় প্রসেস।"
+
+#: src/org.mate.system-monitor.gschema.xml.in:52
+msgid "Saves the currently viewed tab"
+msgstr "বর্তমানে প্রদর্শিত ট্যাব সংরক্ষণ করতে ব্যবহৃত"
+
+#: src/org.mate.system-monitor.gschema.xml.in:53
+msgid ""
+"0 for the System Info, 1 for the processes list, 2 for the resources and 3 "
+"for the disks list"
+msgstr ""
+"সিস্টেমের তথ্যের জন্য 0, প্রসেস তালিকার জন্য 1, রিসোর্সের জন্য 2 ও ডিস্কের "
+"তালিকার জন্য 3"
+
+#: src/org.mate.system-monitor.gschema.xml.in:57
+#: src/org.mate.system-monitor.gschema.xml.in:61
+#: src/org.mate.system-monitor.gschema.xml.in:65
+#: src/org.mate.system-monitor.gschema.xml.in:69
+#: src/org.mate.system-monitor.gschema.xml.in:73
+#: src/org.mate.system-monitor.gschema.xml.in:77
+#: src/org.mate.system-monitor.gschema.xml.in:85
+#: src/org.mate.system-monitor.gschema.xml.in:89
+#: src/org.mate.system-monitor.gschema.xml.in:93
+#: src/org.mate.system-monitor.gschema.xml.in:97
+#: src/org.mate.system-monitor.gschema.xml.in:101
+#: src/org.mate.system-monitor.gschema.xml.in:105
+#: src/org.mate.system-monitor.gschema.xml.in:109
+#: src/org.mate.system-monitor.gschema.xml.in:113
+#: src/org.mate.system-monitor.gschema.xml.in:117
+#: src/org.mate.system-monitor.gschema.xml.in:121
+#: src/org.mate.system-monitor.gschema.xml.in:125
+#: src/org.mate.system-monitor.gschema.xml.in:129
+#: src/org.mate.system-monitor.gschema.xml.in:133
+#: src/org.mate.system-monitor.gschema.xml.in:137
+#: src/org.mate.system-monitor.gschema.xml.in:141
+#: src/org.mate.system-monitor.gschema.xml.in:145
+#: src/org.mate.system-monitor.gschema.xml.in:149
+#: src/org.mate.system-monitor.gschema.xml.in:153
+#: src/org.mate.system-monitor.gschema.xml.in:157
+#: src/org.mate.system-monitor.gschema.xml.in:161
+#: src/org.mate.system-monitor.gschema.xml.in:165
+#: src/org.mate.system-monitor.gschema.xml.in:169
+#: src/org.mate.system-monitor.gschema.xml.in:173
+#: src/org.mate.system-monitor.gschema.xml.in:177
+#: src/org.mate.system-monitor.gschema.xml.in:181
+msgid "Default graph CPU color"
+msgstr ""
+
+#: src/org.mate.system-monitor.gschema.xml.in:81
+msgid "Default graph cpu color"
+msgstr "গ্রাফ cpu এর ডিফল্ট রং"
+
+#: src/org.mate.system-monitor.gschema.xml.in:185
+msgid "Default graph memory color"
+msgstr ""
+
+#: src/org.mate.system-monitor.gschema.xml.in:189
+msgid "Default graph swap color"
+msgstr "গ্রাফ swap এর ডিফল্ট রং"
+
+#: src/org.mate.system-monitor.gschema.xml.in:193
+msgid "Default graph incoming network traffic color"
+msgstr "আগমণকারী নেটওয়ার্ক ট্র্যাফিকের গ্রাফের ডিফল্ট রং"
+
+#: src/org.mate.system-monitor.gschema.xml.in:197
+msgid "Default graph outgoing network traffic color"
+msgstr "বাহিরমূখী নেটওয়ার্ক ট্র্যাফিকের গ্রাফের ডিফল্ট রং"
+
+#: src/org.mate.system-monitor.gschema.xml.in:202
+msgid "Show network traffic in bits"
+msgstr ""
+
+#: src/org.mate.system-monitor.gschema.xml.in:212
+msgid "Process view sort column"
+msgstr "প্রসেস অনুযায়ী প্রদর্শনে কলামের ক্রম সুবিন্যস্ত করুন"
+
+#: src/org.mate.system-monitor.gschema.xml.in:216
+msgid "Process view columns order"
+msgstr "প্রসেস অনুযায়ী প্রদর্শনে কলামের ক্রম"
+
+#: src/org.mate.system-monitor.gschema.xml.in:220
+msgid "Process view sort order"
+msgstr "প্রসেস অনুযায়ী প্রদর্শনের অনুক্রম সুবিন্যস্ত করুন"
+
+#: src/org.mate.system-monitor.gschema.xml.in:224
+msgid "Width of process 'Name' column"
+msgstr ""
+
+#: src/org.mate.system-monitor.gschema.xml.in:228
+msgid "Show process 'Name' column on startup"
+msgstr ""
+
+#: src/org.mate.system-monitor.gschema.xml.in:232
+msgid "Width of process 'User' column"
+msgstr ""
+
+#: src/org.mate.system-monitor.gschema.xml.in:236
+msgid "Show process 'User' column on startup"
+msgstr ""
+
+#: src/org.mate.system-monitor.gschema.xml.in:240
+msgid "Width of process 'Status' column"
+msgstr ""
+
+#: src/org.mate.system-monitor.gschema.xml.in:244
+msgid "Show process 'Status' column on startup"
+msgstr ""
+
+#: src/org.mate.system-monitor.gschema.xml.in:248
+msgid "Width of process 'Virtual Memory' column"
+msgstr ""
+
+#: src/org.mate.system-monitor.gschema.xml.in:252
+msgid "Show process 'Virtual Memory' column on startup"
+msgstr ""
+
+#: src/org.mate.system-monitor.gschema.xml.in:256
+msgid "Width of process 'Resident Memory' column"
+msgstr ""
+
+#: src/org.mate.system-monitor.gschema.xml.in:260
+msgid "Show process 'Resident Memory' column on startup"
+msgstr ""
+
+#: src/org.mate.system-monitor.gschema.xml.in:264
+msgid "Width of process 'Writable Memory' column"
+msgstr ""
+
+#: src/org.mate.system-monitor.gschema.xml.in:268
+msgid "Show process 'Writable Memory' column on startup"
+msgstr ""
+
+#: src/org.mate.system-monitor.gschema.xml.in:272
+msgid "Width of process 'Shared Memory' column"
+msgstr ""
+
+#: src/org.mate.system-monitor.gschema.xml.in:276
+msgid "Show process 'Shared Memory' column on startup"
+msgstr ""
+
+#: src/org.mate.system-monitor.gschema.xml.in:280
+msgid "Width of process 'X Server Memory' column"
+msgstr ""
+
+#: src/org.mate.system-monitor.gschema.xml.in:284
+msgid "Show process 'X Server Memory' column on startup"
+msgstr ""
+
+#. makepot: remove comment
+#: src/org.mate.system-monitor.gschema.xml.in:289
+msgid "Width of process '% CPU' column"
+msgstr ""
+
+#. makepot: remove comment
+#: src/org.mate.system-monitor.gschema.xml.in:294
+msgid "Show process '% CPU' column on startup"
+msgstr ""
+
+#: src/org.mate.system-monitor.gschema.xml.in:298
+msgid "Width of process 'CPU Time' column"
+msgstr ""
+
+#: src/org.mate.system-monitor.gschema.xml.in:302
+msgid "Show process 'CPU Time' column on startup"
+msgstr ""
+
+#: src/org.mate.system-monitor.gschema.xml.in:306
+msgid "Width of process 'Started' column"
+msgstr ""
+
+#: src/org.mate.system-monitor.gschema.xml.in:310
+msgid "Show process 'Started' column on startup"
+msgstr ""
+
+#: src/org.mate.system-monitor.gschema.xml.in:314
+msgid "Width of process 'Nice' column"
+msgstr ""
+
+#: src/org.mate.system-monitor.gschema.xml.in:318
+msgid "Show process 'Nice' column on startup"
+msgstr ""
+
+#: src/org.mate.system-monitor.gschema.xml.in:322
+msgid "Width of process 'ID' column"
+msgstr ""
+
+#: src/org.mate.system-monitor.gschema.xml.in:326
+msgid "Show process 'ID' column on startup"
+msgstr ""
+
+#: src/org.mate.system-monitor.gschema.xml.in:330
+msgid "Width of process 'Security Context' column"
+msgstr ""
+
+#: src/org.mate.system-monitor.gschema.xml.in:334
+msgid "Show process 'Security Context' column on startup"
+msgstr ""
+
+#: src/org.mate.system-monitor.gschema.xml.in:338
+msgid "Width of process 'Command Line' column"
+msgstr ""
+
+#: src/org.mate.system-monitor.gschema.xml.in:342
+msgid "Show process 'Command Line' column on startup"
+msgstr ""
+
+#: src/org.mate.system-monitor.gschema.xml.in:346
+msgid "Width of process 'Memory' column"
+msgstr ""
+
+#: src/org.mate.system-monitor.gschema.xml.in:350
+msgid "Show process 'Memory' column on startup"
+msgstr ""
+
+#: src/org.mate.system-monitor.gschema.xml.in:354
+msgid "Width of process 'Waiting Channel' column"
+msgstr "প্রসেস 'অপেক্ষারত চ্যানেল' কলামের প্রস্থ"
+
+#: src/org.mate.system-monitor.gschema.xml.in:358
+msgid "Show process 'Waiting Channel' column on startup"
+msgstr "প্রারম্ভে প্রসেস 'অপেক্ষারত চ্যানেল' কলাম প্রদর্শিত হবে"
+
+#: src/org.mate.system-monitor.gschema.xml.in:362
+msgid "Width of process 'Control Group' column"
+msgstr ""
+
+#: src/org.mate.system-monitor.gschema.xml.in:366
+msgid "Show process 'Control Group' column on startup"
+msgstr ""
+
+#: src/org.mate.system-monitor.gschema.xml.in:370
+msgid "Width of process 'Unit' column"
+msgstr ""
+
+#: src/org.mate.system-monitor.gschema.xml.in:374
+msgid "Show process 'Unit' column on startup"
+msgstr ""
+
+#: src/org.mate.system-monitor.gschema.xml.in:378
+msgid "Width of process 'Session' column"
+msgstr ""
+
+#: src/org.mate.system-monitor.gschema.xml.in:382
+msgid "Show process 'Session' column on startup"
+msgstr ""
+
+#: src/org.mate.system-monitor.gschema.xml.in:386
+msgid "Width of process 'Seat' column"
+msgstr ""
+
+#: src/org.mate.system-monitor.gschema.xml.in:390
+msgid "Show process 'Seat' column on startup"
+msgstr ""
+
+#: src/org.mate.system-monitor.gschema.xml.in:394
+msgid "Width of process 'Owner' column"
+msgstr ""
+
+#: src/org.mate.system-monitor.gschema.xml.in:398
+msgid "Show process 'Owner' column on startup"
+msgstr ""
+
+#: src/org.mate.system-monitor.gschema.xml.in:402
+msgid "Width of process “Disk Write Total” column"
+msgstr ""
+
+#: src/org.mate.system-monitor.gschema.xml.in:406
+msgid "Show process “Disk Write Total” column on startup"
+msgstr ""
+
+#: src/org.mate.system-monitor.gschema.xml.in:410
+msgid "Width of process “Disk Read Total” column"
+msgstr ""
+
+#: src/org.mate.system-monitor.gschema.xml.in:414
+msgid "Show process “Disk Read Total” column on startup"
+msgstr ""
+
+#: src/org.mate.system-monitor.gschema.xml.in:418
+msgid "Width of process “Disk Read” column"
+msgstr ""
+
+#: src/org.mate.system-monitor.gschema.xml.in:422
+msgid "Show process “Disk Read” column on startup"
+msgstr ""
+
+#: src/org.mate.system-monitor.gschema.xml.in:426
+msgid "Width of process “Disk Write” column"
+msgstr ""
+
+#: src/org.mate.system-monitor.gschema.xml.in:430
+msgid "Show process “Disk Write” column on startup"
+msgstr ""
+
+#: src/org.mate.system-monitor.gschema.xml.in:434
+msgid "Width of process “Priority” column"
+msgstr ""
+
+#: src/org.mate.system-monitor.gschema.xml.in:438
+msgid "Show process “Priority” column on startup"
+msgstr ""
+
+#: src/org.mate.system-monitor.gschema.xml.in:444
+msgid "Disk view sort column"
+msgstr ""
+
+#: src/org.mate.system-monitor.gschema.xml.in:448
+msgid "Disk view sort order"
+msgstr ""
+
+#: src/org.mate.system-monitor.gschema.xml.in:452
+msgid "Disk view columns order"
+msgstr "ডিস্ক প্রদর্শন ব্যবস্থায় কলামের ক্রম"
+
+#: src/org.mate.system-monitor.gschema.xml.in:456
+msgid "Width of disk view 'Device' column"
+msgstr ""
+
+#: src/org.mate.system-monitor.gschema.xml.in:460
+msgid "Show disk view 'Device' column on startup"
+msgstr ""
+
+#: src/org.mate.system-monitor.gschema.xml.in:464
+msgid "Width of disk view 'Directory' column"
+msgstr ""
+
+#: src/org.mate.system-monitor.gschema.xml.in:468
+msgid "Show disk view 'Directory' column on startup"
+msgstr ""
+
+#: src/org.mate.system-monitor.gschema.xml.in:472
+msgid "Width of disk view 'Type' column"
+msgstr ""
+
+#: src/org.mate.system-monitor.gschema.xml.in:476
+msgid "Show disk view 'Type' column on startup"
+msgstr ""
+
+#: src/org.mate.system-monitor.gschema.xml.in:480
+msgid "Width of disk view 'SubVol' column"
+msgstr ""
+
+#: src/org.mate.system-monitor.gschema.xml.in:484
+msgid "Show disk view 'SubVol' column on startup"
+msgstr ""
+
+#: src/org.mate.system-monitor.gschema.xml.in:488
+msgid "Width of disk view 'Total' column"
+msgstr ""
+
+#: src/org.mate.system-monitor.gschema.xml.in:492
+msgid "Show disk view 'Total' column on startup"
+msgstr ""
+
+#: src/org.mate.system-monitor.gschema.xml.in:496
+msgid "Width of disk view 'Free' column"
+msgstr ""
+
+#: src/org.mate.system-monitor.gschema.xml.in:500
+msgid "Show disk view 'Free' column on startup"
+msgstr ""
+
+#: src/org.mate.system-monitor.gschema.xml.in:504
+msgid "Width of disk view 'Available' column"
+msgstr ""
+
+#: src/org.mate.system-monitor.gschema.xml.in:508
+msgid "Show disk view 'Available' column on startup"
+msgstr ""
+
+#: src/org.mate.system-monitor.gschema.xml.in:512
+msgid "Width of disk view 'Used' column"
+msgstr ""
+
+#: src/org.mate.system-monitor.gschema.xml.in:516
+msgid "Show disk view 'Used' column on startup"
+msgstr ""
+
+#: src/org.mate.system-monitor.gschema.xml.in:522
+msgid "Memory map sort column"
+msgstr ""
+
+#: src/org.mate.system-monitor.gschema.xml.in:526
+msgid "Memory map sort order"
+msgstr ""
+
+#: src/org.mate.system-monitor.gschema.xml.in:532
+msgid "Open files sort column"
+msgstr ""
+
+#: src/org.mate.system-monitor.gschema.xml.in:536
+msgid "Open files sort order"
+msgstr ""
+
+#: src/preferences.ui:18
+msgid "System Monitor Preferences"
+msgstr "সিস্টেম পর্যবেক্ষক সংক্রান্ত পছন্দ"
+
+#: src/preferences.ui:106 src/preferences.ui:465
+msgid "Behavior"
+msgstr "আচরণ"
+
+#: src/preferences.ui:135 src/preferences.ui:372 src/preferences.ui:498
+msgid "_Update interval in seconds:"
+msgstr "হালনাগাদের মধ্যবর্তী বিরতি, সেকেন্ডে প্রকাশিত (_U):"
+
+#: src/preferences.ui:165
+msgid "Enable _smooth refresh"
+msgstr "স্মুথ রিফ্রেশ ব্যবস্থা সক্রিয় করা হবে (_s)"
+
+#: src/preferences.ui:180
+msgid "Alert before ending or _killing processes"
+msgstr "প্রসেস সমাপ্ত অথবা kill করার পূর্বে সতর্কবার্তা প্রদর্শিত হবে (_k)"
+
+#: src/preferences.ui:195
+msgid "_Divide CPU usage by CPU count"
+msgstr ""
+
+#: src/preferences.ui:232 src/preferences.ui:567
+msgid "Information Fields"
+msgstr "তথ্যের ক্ষেত্র"
+
+#: src/preferences.ui:258
+msgid "Process i_nformation shown in list:"
+msgstr "তালিকায় প্রদর্শিত প্রসেসের তথ্য (_n):"
+
+#: src/preferences.ui:338
+msgid "Graphs"
+msgstr "গ্রাফ"
+
+#: src/preferences.ui:402
+msgid "_Show network speed in bits"
+msgstr ""
+
+#: src/preferences.ui:528
+msgid "Show _all file systems"
+msgstr ""
+
+#: src/preferences.ui:594
+msgid "File system i_nformation shown in list:"
+msgstr "তালিকায় প্রদর্শিত ফাইল সিস্টেমের তথ্য (_n):"
+
+#: src/procactions.cpp:77
+#, c-format
+msgid ""
+"Cannot change the priority of process with PID %d to %d.\n"
+"%s"
+msgstr ""
+
+#: src/procactions.cpp:157
+#, c-format
+msgid ""
+"Cannot kill process with PID %d with signal %d.\n"
+"%s"
+msgstr ""
+
+#. xgettext: primary alert message for killing single process
+#: src/procdialogs.cpp:80
+#, c-format
+msgid "Are you sure you want to kill the selected process “%s” (PID: %u)?"
+msgstr ""
+
+#. xgettext: primary alert message for ending single process
+#: src/procdialogs.cpp:85
+#, c-format
+msgid "Are you sure you want to end the selected process “%s” (PID: %u)?"
+msgstr ""
+
+#. xgettext: primary alert message for killing multiple processes
+#: src/procdialogs.cpp:92
+#, c-format
+msgid "Are you sure you want to kill the %d selected processes?"
+msgstr ""
+
+#. xgettext: primary alert message for ending multiple processes
+#: src/procdialogs.cpp:96
+#, c-format
+msgid "Are you sure you want to end the %d selected processes?"
+msgstr ""
+
+#. xgettext: secondary alert message
+#: src/procdialogs.cpp:104
+msgid ""
+"Killing a process may destroy data, break the session or introduce a "
+"security risk. Only unresponsive processes should be killed."
+msgstr ""
+
+#. xgettext: secondary alert message
+#: src/procdialogs.cpp:110
+msgid ""
+"Ending a process may destroy data, break the session or introduce a security"
+" risk. Only unresponsive processes should be ended."
+msgstr ""
+
+#: src/procdialogs.cpp:148 src/procdialogs.cpp:247
+#, c-format
+msgid "(%s Priority)"
+msgstr ""
+
+#: src/procdialogs.cpp:197
+#, c-format
+msgid "Change Priority of Process “%s” (PID: %u)"
+msgstr ""
+
+#: src/procdialogs.cpp:200
+#, c-format
+msgid "Change Priority of %d Selected Processes"
+msgstr ""
+
+#: src/procdialogs.cpp:214
+msgid "Change _Priority"
+msgstr "প্রাধান্য পরিবর্তন করুন (_P)"
+
+#: src/procdialogs.cpp:237
+msgid "_Nice value:"
+msgstr "Nice এর মান (_N):"
+
+#: src/procdialogs.cpp:252
+msgid "Note:"
+msgstr "নোট:"
+
+#: src/procdialogs.cpp:253
+msgid ""
+"The priority of a process is given by its nice value. A lower nice value "
+"corresponds to a higher priority."
+msgstr ""
+"প্রসেসের প্রাধান্য nice মান দ্বারা নির্ধারিত হয়। nice এর মান তুলনামূলকরূপে "
+"কম হলে প্রসেসের প্রাধান্যের মাত্রা বেশি হবে।"
+
+#: src/procdialogs.cpp:423
+msgid "Icon"
+msgstr "আইকন"
+
+#: src/proctable.cpp:253 src/procproperties.cpp:140
+msgid "Process Name"
+msgstr "প্রসেসের নাম"
+
+#: src/proctable.cpp:254 src/procproperties.cpp:141
+msgid "User"
+msgstr "ব্যবহারকারী"
+
+#: src/proctable.cpp:255 src/procproperties.cpp:142
+msgid "Status"
+msgstr "অবস্থা"
+
+#: src/proctable.cpp:256 src/procproperties.cpp:144
+msgid "Virtual Memory"
+msgstr "ভার্চুয়াল মেমরি"
+
+#: src/proctable.cpp:257 src/procproperties.cpp:145
+msgid "Resident Memory"
+msgstr "রেসিডেন্ট মেমরি"
+
+#: src/proctable.cpp:258 src/procproperties.cpp:146
+msgid "Writable Memory"
+msgstr "লিখনযোগ্য মেমরি"
+
+#: src/proctable.cpp:259 src/procproperties.cpp:147
+msgid "Shared Memory"
+msgstr "যৌথরূপে ব্যবহৃত (শেয়ার) মেমরি"
+
+#: src/proctable.cpp:260 src/procproperties.cpp:149
+msgid "X Server Memory"
+msgstr "X সার্ভার মেমরি"
+
+#: src/proctable.cpp:261
+#, no-c-format
+msgid "% CPU"
+msgstr "% CPU"
+
+#: src/proctable.cpp:262 src/procproperties.cpp:154
+msgid "CPU Time"
+msgstr "CPU সময়"
+
+#: src/proctable.cpp:263 src/procproperties.cpp:155
+msgid "Started"
+msgstr "প্রারম্ভকাল"
+
+#: src/proctable.cpp:264 src/procproperties.cpp:156
+msgid "Nice"
+msgstr "Nice"
+
+#: src/proctable.cpp:265 src/procproperties.cpp:158
+msgid "ID"
+msgstr "ID"
+
+#: src/proctable.cpp:266 src/procproperties.cpp:159
+msgid "Security Context"
+msgstr "সিকিউরিটি কনটেক্সট"
+
+#: src/proctable.cpp:267 src/procproperties.cpp:160
+msgid "Command Line"
+msgstr "কমান্ড লাইন"
+
+#. xgettext: combined noun, the function the process is waiting in, see wchan
+#. ps(1)
+#: src/proctable.cpp:270 src/procproperties.cpp:161
+msgid "Waiting Channel"
+msgstr "অপেক্ষারত চ্যানেল"
+
+#: src/proctable.cpp:271 src/procproperties.cpp:162
+msgid "Control Group"
+msgstr ""
+
+#: src/proctable.cpp:272
+msgid "Unit"
+msgstr ""
+
+#: src/proctable.cpp:273
+msgid "Session"
+msgstr ""
+
+#. TRANSLATORS: Seat = i.e. the physical seat the session of the process
+#. belongs to, only
+#. for multi-seat environments. See
+#. http://en.wikipedia.org/wiki/Multiseat_configuration
+#: src/proctable.cpp:276
+msgid "Seat"
+msgstr ""
+
+#: src/proctable.cpp:277
+msgid "Owner"
+msgstr "মালিক"
+
+#: src/proctable.cpp:278 src/procproperties.cpp:151
+msgid "Disk Read Total"
+msgstr ""
+
+#: src/proctable.cpp:279 src/procproperties.cpp:152
+msgid "Disk Write Total"
+msgstr ""
+
+#: src/proctable.cpp:280
+msgid "Disk Read"
+msgstr ""
+
+#: src/proctable.cpp:281
+msgid "Disk Write"
+msgstr ""
+
+#: src/proctable.cpp:282 src/procproperties.cpp:157
+msgid "Priority"
+msgstr "গুরুত্ব"
+
+#: src/proctable.cpp:1180
+#, c-format
+msgid "Load averages for the last 1, 5, 15 minutes: %0.2f, %0.2f, %0.2f"
+msgstr "সর্বশেষ ১, ৫, ১৫ মিনিটে ব্যবহারের গড় চাপ: %0.2f, %0.2f, %0.2f"
+
+#: src/procproperties.cpp:114 src/procproperties.cpp:123
+#: src/procproperties.cpp:159 src/procproperties.cpp:162 src/util.cpp:390
+#: src/util.cpp:462 src/util.cpp:500
+msgid "N/A"
+msgstr "প্রযোজ্য নয়"
+
+#: src/procproperties.cpp:270
+msgid "Process Properties"
+msgstr ""
+
+#: src/procproperties.cpp:290
+#, c-format
+msgid "Properties of process \"%s\" (PID %u):"
+msgstr ""
+
+#. Translators: The first string parameter is release version (codename),
+#. * the second one is the architecture, 32 or 64-bit
+#: src/sysinfo.cpp:82
+#, c-format
+msgid "Release %s %s"
+msgstr ""
+
+#. Translators: The string parameter is the architecture, 32 or 64-bit
+#: src/sysinfo.cpp:89
+#, c-format
+msgid "%s Version"
+msgstr ""
+
+#. Translators: The string parameter is release version (codename)
+#: src/sysinfo.cpp:94
+#, c-format
+msgid "Release %s"
+msgstr "রিলিজ %s"
+
+#. translators: This is the type of architecture, for example:
+#. * "64-bit" or "32-bit"
+#: src/sysinfo.cpp:137
+#, c-format
+msgid "%d-bit"
+msgstr ""
+
+#: src/sysinfo.cpp:298
+msgid "Unknown"
+msgstr "অজানা"
+
+#: src/sysinfo.cpp:979
+#, c-format
+msgid "Kernel %s"
+msgstr "কার্নেল %s"
+
+#: src/sysinfo.cpp:992
+#, c-format
+msgid "MATE %s"
+msgstr "MATE %s"
+
+#. hardware section
+#: src/sysinfo.cpp:1006
+msgid "Hardware"
+msgstr "হার্ডওয়্যার"
+
+#: src/sysinfo.cpp:1011
+msgid "Memory:"
+msgstr "মেমরি:"
+
+#: src/sysinfo.cpp:1014
+msgid "Processor:"
+msgstr "প্রসেসর:"
+
+#: src/sysinfo.cpp:1016
+msgid "Graphics:"
+msgstr ""
+
+#. disk space section
+#: src/sysinfo.cpp:1021
+msgid "System Status"
+msgstr ""
+
+#: src/sysinfo.cpp:1026
+msgid "Available disk space:"
+msgstr "ডিস্কে বিদ্যমান ফাঁকা স্থান:"
+
+#: src/util.cpp:31
+msgid "Today %l:%M %p"
+msgstr "আজ %l:%M %p"
+
+#: src/util.cpp:33
+msgid "Yesterday %l:%M %p"
+msgstr "গতকাল %l:%M %p"
+
+#: src/util.cpp:35
+msgid "%a %l:%M %p"
+msgstr "%a %l:%M %p"
+
+#: src/util.cpp:37
+msgid "%b %d %l:%M %p"
+msgstr "%b %d %l:%M %p"
+
+#: src/util.cpp:39
+msgid "%b %d %Y"
+msgstr "%b %d %Y"
+
+#: src/util.cpp:57
+msgid "Running"
+msgstr "চলমান"
+
+#: src/util.cpp:61
+msgid "Stopped"
+msgstr "বন্ধ"
+
+#: src/util.cpp:65
+msgid "Zombie"
+msgstr "জম্বি"
+
+#: src/util.cpp:69
+msgid "Uninterruptible"
+msgstr "নিরবিচ্ছিন্নভাবে"
+
+#: src/util.cpp:73
+msgid "Sleeping"
+msgstr "নিদ্রিত"
+
+#. xgettext: weeks, days
+#: src/util.cpp:128
+#, c-format
+msgid "%uw%ud"
+msgstr "%uw%ud"
+
+#. xgettext: days, hours (0 -> 23)
+#: src/util.cpp:132
+#, c-format
+msgid "%ud%02uh"
+msgstr "%ud%02uh"
+
+#. xgettext: hours (0 -> 23), minutes, seconds
+#: src/util.cpp:136
+#, c-format
+msgid "%u:%02u:%02u"
+msgstr "%u:%02u:%02u"
+
+#. xgettext: minutes, seconds, centiseconds
+#: src/util.cpp:139
+#, c-format
+msgid "%u:%02u.%02u"
+msgstr "%u:%02u.%02u"

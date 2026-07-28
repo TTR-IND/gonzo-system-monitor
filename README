@@ -1,0 +1,12 @@
+[![Translation status](https://translate.fedoraproject.org/widget/mate-desktop/svg-badge.svg)](https://translate.fedoraproject.org/engage/mate-desktop/)
+
+mate-system-monitor
+=============
+
+mate-system-monitor is a fork of gnome-system-monitor
+
+Optional dependencies :
+- pkexec - recommended
+- libselinux
+- lsb_release in PATH - recommended on linux
+

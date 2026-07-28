@@ -1,0 +1,1546 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR MATE Desktop Environment team
+# This file is distributed under the same license as the mate-system-monitor package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Alan Lee <bkrhlim@aol.com>, 2018
+# 1763f4a4329a2376c933c5e919a36cbc_341ca53 <1f851310383599d03339229d772e1290_119292>, 2019
+# Junghee Lee <daemul72@gmail.com>, 2021
+# Seong-ho Cho <darkcircle.0426@gmail.com>, 2022
+# Stefano Karapetsas <stefano@karapetsas.com>, 2022
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: mate-system-monitor 1.27.0\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/mate-system-monitor/issues\n"
+"POT-Creation-Date: 2023-09-04 20:48+0200\n"
+"PO-Revision-Date: 2018-03-12 08:25+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>, 2022\n"
+"Language-Team: Korean (https://app.transifex.com/mate/teams/13566/ko/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ko\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: mate-system-monitor.appdata.xml.in:7 mate-system-monitor.desktop.in.in:3
+msgid "MATE System Monitor"
+msgstr "MATE 시스템 모니터"
+
+#: mate-system-monitor.appdata.xml.in:8
+msgid "A Process and resource monitor for MATE Desktop"
+msgstr "MATE 데스크톱용 프로세스 및 자원 감시 프로그램"
+
+#: mate-system-monitor.appdata.xml.in:10
+msgid ""
+"MATE System Monitor allows to graphically view and manipulate the running "
+"processes on your system. It also provides an overview of available "
+"resources, such as CPU and memory."
+msgstr ""
+
+#: mate-system-monitor.appdata.xml.in:15
+msgid ""
+"MATE System Monitor is a fork of GNOME System Monitor and part of the MATE "
+"Desktop Environment. If you would like to know more about MATE and System "
+"Monitor, please visit the project's home page."
+msgstr ""
+"GNOME 시스템 모니터는 GNOME 시스템 모니터의 포크이자 GNOME 데스크톱 환경의 일부입니다. GNOME 및 시스템 모니터에 대해"
+" 자세히 알고 싶으시면 프로젝트의 홈 페이지를 방문하십시오."
+
+#: mate-system-monitor.desktop.in.in:4 src/callbacks.cpp:229
+#: src/interface.ui:7
+msgid "System Monitor"
+msgstr "시스템 정보"
+
+#: mate-system-monitor.desktop.in.in:5 src/callbacks.cpp:232
+msgid "View current processes and monitor system state"
+msgstr "현재 프로세스와 시스템 상태를 봅니다"
+
+#. Translators: Search terms to find this application. Do NOT translate or
+#. localize the semicolons! The list MUST also end with a semicolon!
+#: mate-system-monitor.desktop.in.in:15
+msgid "MATE;system;monitor;process;list;view;current;resources;"
+msgstr ""
+
+#: org.mate.mate-system-monitor.policy.in.in:11
+msgid "Kill process"
+msgstr "프로세스 끝내기"
+
+#: org.mate.mate-system-monitor.policy.in.in:12
+msgid "Privileges are required to control other users' processes"
+msgstr "다른 사용자들의 프로세스를 조종하려면 권한이 필요합니다"
+
+#: org.mate.mate-system-monitor.policy.in.in:22
+msgid "Renice process"
+msgstr "리나이스 프로세스"
+
+#: org.mate.mate-system-monitor.policy.in.in:23
+msgid "Privileges are required to change the priority of processes"
+msgstr "프로세스의 우선순위를 바꾸려면 권한이 필요합니다"
+
+#: src/argv.cpp:21
+msgid "Show the System tab"
+msgstr "시스템 탭을 표시합니다"
+
+#: src/argv.cpp:26
+msgid "Show the Processes tab"
+msgstr "프로세스 탭 표시"
+
+#: src/argv.cpp:31
+msgid "Show the Resources tab"
+msgstr "자원 탭 표시 "
+
+#: src/argv.cpp:36
+msgid "Show the File Systems tab"
+msgstr "파일 시스템 탭 표시"
+
+#: src/callbacks.cpp:211
+msgid ""
+"System Monitor is free software; you can redistribute it and/or modify it "
+"under the terms of the GNU General Public License as published by the Free "
+"Software Foundation; either version 2 of the License, or (at your option) "
+"any later version."
+msgstr ""
+"시스템 모니터는 자유 소프트웨어 입니다. 자유 소프트웨어 재단이 발표한 GNU 일반 공중 사용 허가서 버전 2 또는 (선택에 따라) 그 "
+"이상의 버전의 조항에 의거하여 재배포하거나 수정할 수 있습니다."
+
+#: src/callbacks.cpp:215
+msgid ""
+"System Monitor is distributed in the hope that it will be useful, but "
+"WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY "
+"or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for"
+" more details."
+msgstr ""
+"시스템 모니터는 유용하게 사용될 수 있으리라는 희망에서 배포되고 있지만, 특정한 목적에 맞는 적합성 여부나 판매용으로 사용할 수 "
+"있으리라는 묵시적인 보증을 포함한 어떠한 형태의 보증도 제공하지 않습니다. 보다 자세한 사항에 대해서는 GNU 일반 공중 사용 허가서를 "
+"참고하시기 바랍니다."
+
+#: src/callbacks.cpp:219
+msgid ""
+"You should have received a copy of the GNU General Public License along with"
+" System Monitor; if not, write to the Free Software Foundation, Inc., 51 "
+"Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA"
+msgstr ""
+"시스템 모니터와 함께 GNU 일반 공중 사용 허가서 사본을 받았어야 합니다; 그렇지 않다면 Free Software Foundation,"
+" Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA에 편지를 "
+"보내십시오."
+
+#: src/callbacks.cpp:231
+msgid "About System Monitor"
+msgstr "시스템 정보 소개"
+
+#: src/callbacks.cpp:233
+msgid ""
+"Copyright © 2001-2004 Kevin Vandersloot\n"
+"Copyright © 2005-2007 Benoît Dejean\n"
+"Copyright © 2011-2020 MATE developers"
+msgstr ""
+"Copyright © 2001-2004 Kevin Vandersloot\n"
+"Copyright © 2005-2007 Benoît Dejean\n"
+"Copyright © 2011-2020 MATE developers"
+
+#: src/callbacks.cpp:240
+msgid "translator-credits"
+msgstr ""
+"Elex https://launchpad.net/~mysticzizone\n"
+"Valmantas Palikša https://launchpad.net/~walmis\n"
+"Yoo Duk Nam https://launchpad.net/~yoo2001818\n"
+"onlyeriko https://launchpad.net/~onlyeriko\n"
+"Seong-ho Cho <darkcircle.0426@gmail.com>\n"
+"JungHee Lee <daemul72@gmail.com>\n"
+"MATE Desktop Environment Team <https://www.transifex.com/mate/teams/13566/ko/>"
+
+#: src/disks.cpp:404 src/memmaps.cpp:327
+msgid "Device"
+msgstr "장치"
+
+#: src/disks.cpp:405
+msgid "Directory"
+msgstr "디렉터리"
+
+#: src/disks.cpp:406 src/gsm_color_button.c:179 src/openfiles.cpp:256
+msgid "Type"
+msgstr "형식"
+
+#: src/disks.cpp:407
+msgid "SubVolume"
+msgstr ""
+
+#: src/disks.cpp:408
+msgid "Total"
+msgstr "전체"
+
+#: src/disks.cpp:409
+msgid "Free"
+msgstr "남은 양"
+
+#: src/disks.cpp:410
+msgid "Available"
+msgstr "사용 가능"
+
+#: src/disks.cpp:411
+msgid "Used"
+msgstr "사용 중"
+
+#: src/gsm_color_button.c:155
+msgid "Fraction"
+msgstr "조각"
+
+#. TRANSLATORS: description of the pie color picker's (mem, swap) filled
+#. percentage property
+#: src/gsm_color_button.c:157
+msgid "Percentage full for pie color pickers"
+msgstr "파이 색상 선택기에 대한 전체 비율"
+
+#: src/gsm_color_button.c:164
+msgid "Title"
+msgstr "제목"
+
+#: src/gsm_color_button.c:165
+msgid "The title of the color selection dialog"
+msgstr "색상 선택 대화 상자 제목"
+
+#: src/gsm_color_button.c:166 src/gsm_color_button.c:585
+msgid "Pick a Color"
+msgstr "색상 선택"
+
+#: src/gsm_color_button.c:172
+msgid "Current Color"
+msgstr "현재 색상"
+
+#: src/gsm_color_button.c:173
+msgid "The selected color"
+msgstr "선택한 색상"
+
+#: src/gsm_color_button.c:180
+msgid "Type of color picker"
+msgstr "색 선택 창의 종류"
+
+#: src/gsm_color_button.c:502
+msgid "Received invalid color data\n"
+msgstr "잘못된 색상 데이터를 받았습니다\n"
+
+#: src/gsm_color_button.c:608
+msgid "Click to set graph colors"
+msgstr "그래프 색을 설정하려면 누르십시오"
+
+#. xgettext: noun, top level menu.
+#. "File" did not make sense for system-monitor
+#: src/interface.cpp:52
+msgid "_Monitor"
+msgstr "정보(_M)"
+
+#: src/interface.cpp:53
+msgid "_Edit"
+msgstr "편집(_E)"
+
+#: src/interface.cpp:54
+msgid "_View"
+msgstr "보기(_V)"
+
+#: src/interface.cpp:55
+msgid "_Help"
+msgstr "도움말(_H)"
+
+#: src/interface.cpp:57
+msgid "Search for _Open Files"
+msgstr "열린 파일 검색(_O)"
+
+#: src/interface.cpp:58
+msgid "Search for open files"
+msgstr "열려있는 파일을 찾습니다"
+
+#: src/interface.cpp:59
+msgid "_Quit"
+msgstr "끝내기(_Q)"
+
+#: src/interface.cpp:60
+msgid "Quit the program"
+msgstr "프로그램을 끝냅니다"
+
+#: src/interface.cpp:63
+msgid "_Stop Process"
+msgstr "프로세스 멈추기(_S)"
+
+#: src/interface.cpp:64
+msgid "Stop process"
+msgstr "프로세스를 멈춥니다"
+
+#: src/interface.cpp:65
+msgid "_Continue Process"
+msgstr "프로세스 진행(_C)"
+
+#: src/interface.cpp:66
+msgid "Continue process if stopped"
+msgstr "멈춘 프로세스를 계속 진행하게 합니다"
+
+#: src/interface.cpp:68 src/procdialogs.cpp:113
+msgid "_End Process"
+msgid_plural "_End Processes"
+msgstr[0] ""
+
+#: src/interface.cpp:69
+msgid "Force process to finish normally"
+msgstr "정상적으로 프로세스를 마칩니다"
+
+#: src/interface.cpp:70 src/procdialogs.cpp:107
+msgid "_Kill Process"
+msgid_plural "_Kill Processes"
+msgstr[0] ""
+
+#: src/interface.cpp:71
+msgid "Force process to finish immediately"
+msgstr "강제로 프로세스를 마칩니다"
+
+#: src/interface.cpp:72
+msgid "_Change Priority"
+msgstr "우선순위 바꾸기(_C)"
+
+#: src/interface.cpp:73
+msgid "Change the order of priority of process"
+msgstr "프로세스의 우선 순위 (nice 값)을 바꿉니다"
+
+#: src/interface.cpp:74
+msgid "_Preferences"
+msgstr "기본 설정(_P)"
+
+#: src/interface.cpp:75
+msgid "Configure the application"
+msgstr "프로그램을 설정합니다"
+
+#: src/interface.cpp:77
+msgid "_Refresh"
+msgstr "새로 고치기(_R)"
+
+#: src/interface.cpp:78
+msgid "Refresh the process list"
+msgstr "프로세스 목록 새로 고치기"
+
+#: src/interface.cpp:80
+msgid "_Memory Maps"
+msgstr "메모리 맵(_M)"
+
+#: src/interface.cpp:81
+msgid "Open the memory maps associated with a process"
+msgstr "프로세스와 관련된 메모리 맵을 엽니다"
+
+#. Translators: this means 'Files that are open' (open is no verb here
+#: src/interface.cpp:83
+msgid "Open _Files"
+msgstr "연 파일(_F)"
+
+#: src/interface.cpp:84
+msgid "View the files opened by a process"
+msgstr "프로세스가 연 파일을 봅니다"
+
+#: src/interface.cpp:85
+msgid "_Properties"
+msgstr "속성(_P)"
+
+#: src/interface.cpp:86
+msgid "View additional information about a process"
+msgstr "추가 프로세스 정보 보기"
+
+#: src/interface.cpp:89
+msgid "_Contents"
+msgstr "콘텐츠(_C)"
+
+#: src/interface.cpp:90
+msgid "Open the manual"
+msgstr "도움말을 보여줍니다"
+
+#: src/interface.cpp:91
+msgid "_About"
+msgstr "정보(_A)"
+
+#: src/interface.cpp:92
+msgid "About this application"
+msgstr "이 프로그램에 대한 정보"
+
+#: src/interface.cpp:97
+msgid "_Dependencies"
+msgstr "의존성(_D)"
+
+#: src/interface.cpp:98
+msgid "Show parent/child relationship between processes"
+msgstr "프로세스의 부모/자식 관계를 봅니다"
+
+#: src/interface.cpp:105
+msgid "_Active Processes"
+msgstr "활성 프로세스(_A)"
+
+#: src/interface.cpp:106
+msgid "Show active processes"
+msgstr "활성 프로세스를 봅니다"
+
+#: src/interface.cpp:107
+msgid "A_ll Processes"
+msgstr "모든 프로세스(_L)"
+
+#: src/interface.cpp:108
+msgid "Show all processes"
+msgstr "모든 프로세스를 봅니다"
+
+#: src/interface.cpp:109
+msgid "M_y Processes"
+msgstr "내 프로세스(_Y)"
+
+#: src/interface.cpp:110
+msgid "Show only user-owned processes"
+msgstr "사용자 소유 프로세스만 표시 "
+
+#: src/interface.cpp:115 src/util.cpp:167
+msgid "Very High"
+msgstr "매우 높음"
+
+#: src/interface.cpp:116
+msgid "Set process priority to very high"
+msgstr "프로세스 우선순위를 매우 높게 설정"
+
+#: src/interface.cpp:117 src/util.cpp:169
+msgid "High"
+msgstr "높음"
+
+#: src/interface.cpp:118
+msgid "Set process priority to high"
+msgstr "프로세스 우선순위를 높게 설정"
+
+#: src/interface.cpp:119 src/util.cpp:171
+msgid "Normal"
+msgstr "보통"
+
+#: src/interface.cpp:120
+msgid "Set process priority to normal"
+msgstr "프로세스 우선순위를 보통으로 설정"
+
+#: src/interface.cpp:121 src/util.cpp:173
+msgid "Low"
+msgstr "낮음"
+
+#: src/interface.cpp:122
+msgid "Set process priority to low"
+msgstr "프로세스 우선순위를 낮게 설정"
+
+#: src/interface.cpp:123 src/util.cpp:175
+msgid "Very Low"
+msgstr "매우 낮음"
+
+#: src/interface.cpp:124
+msgid "Set process priority to very low"
+msgstr "프로세스 우선순위를 매우 낮게 설정"
+
+#: src/interface.cpp:125
+msgid "Custom"
+msgstr "개별 설정"
+
+#: src/interface.cpp:126
+msgid "Set process priority manually"
+msgstr "프로세스 우선순위를 직접 설정"
+
+#. Translators: color picker title, %s is CPU, Memory, Swap, Receiving,
+#. Sending
+#: src/interface.cpp:259
+#, c-format
+msgid "Pick a Color for '%s'"
+msgstr "'%s' 색상 선택"
+
+#: src/interface.cpp:287 src/procproperties.cpp:153
+msgid "CPU"
+msgstr "CPU"
+
+#: src/interface.cpp:289
+#, c-format
+msgid "CPU%d"
+msgstr "CPU%d"
+
+#: src/interface.cpp:324 src/interface.ui:257 src/proctable.cpp:268
+#: src/procproperties.cpp:143
+msgid "Memory"
+msgstr "메모리"
+
+#: src/interface.cpp:337 src/interface.ui:244
+msgid "Swap"
+msgstr "스왑"
+
+#: src/interface.cpp:365 src/interface.ui:351
+msgid "Receiving"
+msgstr "받기"
+
+#: src/interface.cpp:384
+msgid "Sending"
+msgstr "보내기"
+
+#: src/interface.ui:45
+msgid "System"
+msgstr "시스템"
+
+#: src/interface.ui:91
+msgid "End _Process"
+msgstr "프로세스 끝내기(_P)"
+
+#: src/interface.ui:114 src/preferences.ui:310
+msgid "Processes"
+msgstr "프로세스"
+
+#: src/interface.ui:140
+msgid "CPU History"
+msgstr "CPU 사용 기록"
+
+#: src/interface.ui:206
+msgid "Memory and Swap History"
+msgstr "메모리 및 스왑 사용 기록"
+
+#: src/interface.ui:315
+msgid "Network History"
+msgstr "네트워크 사용 기록"
+
+#: src/interface.ui:364
+msgid "Total Received"
+msgstr "전체 받음"
+
+#: src/interface.ui:377
+msgid "Sent"
+msgstr ""
+
+#: src/interface.ui:390
+msgid "Total Sent"
+msgstr "전체 보냄"
+
+#: src/interface.ui:482 src/preferences.ui:437
+msgid "Resources"
+msgstr "자원"
+
+#: src/interface.ui:522 src/preferences.ui:649
+msgid "File Systems"
+msgstr "파일시스템"
+
+#: src/load-graph.cpp:176
+#, c-format
+msgid "%u second"
+msgid_plural "%u seconds"
+msgstr[0] "%u초"
+
+#: src/load-graph.cpp:349
+msgid "not available"
+msgstr "없음"
+
+#. xgettext: 540MiB (53 %) of 1.0 GiB
+#: src/load-graph.cpp:352
+#, c-format
+msgid "%s (%.1f%%) of %s"
+msgstr "%s (%.1f%%) / %s"
+
+#: src/load-graph.cpp:603 src/load-graph.cpp:610 src/util.cpp:506
+#, c-format
+msgid "%s/s"
+msgstr "%s/초"
+
+#: src/lsof.cpp:123
+msgid "Error"
+msgstr "오류"
+
+#: src/lsof.cpp:124
+#, c-format
+msgid "'%s' is not a valid Perl regular expression."
+msgstr "'%s'은(는) 올바른 Perl 정규 표현식이 아닙니다."
+
+#: src/lsof.cpp:270
+msgid "Process"
+msgstr "프로세스"
+
+#: src/lsof.cpp:282
+msgid "PID"
+msgstr "PID"
+
+#: src/lsof.cpp:292 src/memmaps.cpp:305
+msgid "Filename"
+msgstr "파일 이름"
+
+#. gtk_window_set_modal(GTK_WINDOW(dialog), TRUE);
+#: src/lsof.cpp:309
+msgid "Search for Open Files"
+msgstr "열린 파일을 찾습니다"
+
+#: src/lsof.cpp:336
+msgid "_Name contains:"
+msgstr "이름에 포함(_N):"
+
+#. The default accelerator collides with the default close accelerator.
+#: src/lsof.cpp:357
+msgid "C_lear"
+msgstr "지우기(_L)"
+
+#: src/lsof.cpp:361
+msgid "Case insensitive matching"
+msgstr "대소문자 구분하지 않음"
+
+#: src/lsof.cpp:369
+msgid "S_earch results:"
+msgstr "검색 결과(_E):"
+
+#. xgettext: virtual memory start
+#: src/memmaps.cpp:307
+msgid "VM Start"
+msgstr "VM 시작"
+
+#. xgettext: virtual memory end
+#: src/memmaps.cpp:309
+msgid "VM End"
+msgstr "VM 끝"
+
+#. xgettext: virtual memory syze
+#: src/memmaps.cpp:311
+msgid "VM Size"
+msgstr "VM 크기"
+
+#: src/memmaps.cpp:312
+msgid "Flags"
+msgstr "프래그"
+
+#. xgettext: virtual memory offset
+#: src/memmaps.cpp:314
+msgid "VM Offset"
+msgstr "VM 오프셋"
+
+#. xgettext: memory that has not been modified since
+#. it has been allocated
+#: src/memmaps.cpp:317
+msgid "Private clean"
+msgstr "Private clean"
+
+#. xgettext: memory that has been modified since it
+#. has been allocated
+#: src/memmaps.cpp:320
+msgid "Private dirty"
+msgstr "Private dirty"
+
+#. xgettext: shared memory that has not been modified
+#. since it has been allocated
+#: src/memmaps.cpp:323
+msgid "Shared clean"
+msgstr "Shared clean"
+
+#. xgettext: shared memory that has been modified
+#. since it has been allocated
+#: src/memmaps.cpp:326
+msgid "Shared dirty"
+msgstr "Shared dirty"
+
+#: src/memmaps.cpp:328
+msgid "Inode"
+msgstr "아이노드"
+
+#: src/memmaps.cpp:432
+msgid "Memory Maps"
+msgstr "메모리 맵"
+
+#: src/memmaps.cpp:444
+#, c-format
+msgid "_Memory maps for process \"%s\" (PID %u):"
+msgstr "\"%s\" 프로세스의 메모리 맵(_M) (PID %u):"
+
+#: src/openfiles.cpp:38
+msgid "file"
+msgstr "파일"
+
+#: src/openfiles.cpp:40
+msgid "pipe"
+msgstr "파이프"
+
+#: src/openfiles.cpp:42
+msgid "IPv6 network connection"
+msgstr "IPv6 네트워크 연결"
+
+#: src/openfiles.cpp:44
+msgid "IPv4 network connection"
+msgstr "IPv4 네트워크 연결"
+
+#: src/openfiles.cpp:46
+msgid "local socket"
+msgstr "로컬 소켓"
+
+#: src/openfiles.cpp:48
+msgid "unknown type"
+msgstr "알 수 없는 형식"
+
+#. Translators: "FD" here means "File Descriptor". Please use
+#. a very short translation if possible, and at most
+#. 2-3 characters for it to be able to fit in the UI.
+#: src/openfiles.cpp:255
+msgid "FD"
+msgstr "FD"
+
+#: src/openfiles.cpp:257
+msgid "Object"
+msgstr "개체"
+
+#: src/openfiles.cpp:328
+msgid "Open Files"
+msgstr "연 파일"
+
+#: src/openfiles.cpp:349
+#, c-format
+msgid "_Files opened by process \"%s\" (PID %u):"
+msgstr "\"%s\" 프로세스가 연 파일(_F) (PID %u):"
+
+#: src/org.mate.system-monitor.gschema.xml.in:6
+msgid "Main window size and position in the form (width, height, xpos, ypos)"
+msgstr "메인 창 크기와 위치 (폭, 높이, X 좌표, Y 좌표)"
+
+#: src/org.mate.system-monitor.gschema.xml.in:10
+msgid ""
+"If TRUE, main window will open maximized, and saved size and position values"
+" are ignored."
+msgstr "참 이면, 메인 창이 최대화 되어 열리고, 저장된 크기와 위치 정보는 무시됩니다."
+
+#: src/org.mate.system-monitor.gschema.xml.in:14
+msgid "Show process dependencies in tree form"
+msgstr "트리 형태로 프로세스 의존성 표시"
+
+#: src/org.mate.system-monitor.gschema.xml.in:18
+msgid "Solaris mode for CPU percentage"
+msgstr "CPU사용량을 솔라리스 모드로 보기"
+
+#: src/org.mate.system-monitor.gschema.xml.in:19
+msgid ""
+"If TRUE, system-monitor operates in 'Solaris mode' where a task's CPU usage "
+"is divided by the total number of CPUs. Otherwise, it operates in 'Irix "
+"mode'."
+msgstr ""
+"참이면, 시스템 감시기는 '솔라리스 모드'로 동작하여 각 작업의 CPU사용량을 전체 CPU 수로 나눕니다. 그렇지 않으면 '아이릭스 "
+"모드'로 동작합니다."
+
+#: src/org.mate.system-monitor.gschema.xml.in:23
+msgid "Enable/Disable smooth refresh"
+msgstr "부드럽게 재생하기 켜기/끄기"
+
+#: src/org.mate.system-monitor.gschema.xml.in:27
+msgid "Show warning dialog when killing processes"
+msgstr "프로세스를 죽일 때 경고 대화상자 보기"
+
+#: src/org.mate.system-monitor.gschema.xml.in:31
+msgid "Time in milliseconds between updates of the process view"
+msgstr "프로세스 보기 업데이트 간격 (천분의 일초 단위)"
+
+#: src/org.mate.system-monitor.gschema.xml.in:35
+msgid "Time in milliseconds between updates of the graphs"
+msgstr "그래프 업데이트 간격 (천분의 일초 단위)"
+
+#: src/org.mate.system-monitor.gschema.xml.in:39
+msgid "Whether information about all file systems should be displayed"
+msgstr "모든 파일 시스템 정보 표시 여부"
+
+#: src/org.mate.system-monitor.gschema.xml.in:40
+msgid ""
+"Whether to display information about all file systems (including types like "
+"'autofs' and 'procfs'). Useful for getting a list of all currently mounted "
+"file systems."
+msgstr ""
+"( 'autofs가'와 'procfs의'와 같은 유형을 포함하여) 모든 파일 시스템에 대한 정보를 표시할지 여부를 결정합니다. 현재 "
+"마운트 된 모든 파일 시스템의 목록을 얻기에 유용합니다."
+
+#: src/org.mate.system-monitor.gschema.xml.in:44
+msgid "Time in milliseconds between updates of the devices list"
+msgstr "장치 목록 업데이트 간격 (천분의 일초 단위)"
+
+#: src/org.mate.system-monitor.gschema.xml.in:48
+msgid ""
+"Determines which processes to show by default. 0 is All, 1 is user, and 2 is"
+" active"
+msgstr "어떤 프로세스를 볼 지 결정합니다. 0은 전부, 1은 사용자, 2는 활성 프로세스"
+
+#: src/org.mate.system-monitor.gschema.xml.in:52
+msgid "Saves the currently viewed tab"
+msgstr "현재 표시하는 탭을 저장합니다"
+
+#: src/org.mate.system-monitor.gschema.xml.in:53
+msgid ""
+"0 for the System Info, 1 for the processes list, 2 for the resources and 3 "
+"for the disks list"
+msgstr "시스템정보는 0, 프로세스 목록은 1, 리소스는 2, 디스크 목록은 3"
+
+#: src/org.mate.system-monitor.gschema.xml.in:57
+#: src/org.mate.system-monitor.gschema.xml.in:61
+#: src/org.mate.system-monitor.gschema.xml.in:65
+#: src/org.mate.system-monitor.gschema.xml.in:69
+#: src/org.mate.system-monitor.gschema.xml.in:73
+#: src/org.mate.system-monitor.gschema.xml.in:77
+#: src/org.mate.system-monitor.gschema.xml.in:85
+#: src/org.mate.system-monitor.gschema.xml.in:89
+#: src/org.mate.system-monitor.gschema.xml.in:93
+#: src/org.mate.system-monitor.gschema.xml.in:97
+#: src/org.mate.system-monitor.gschema.xml.in:101
+#: src/org.mate.system-monitor.gschema.xml.in:105
+#: src/org.mate.system-monitor.gschema.xml.in:109
+#: src/org.mate.system-monitor.gschema.xml.in:113
+#: src/org.mate.system-monitor.gschema.xml.in:117
+#: src/org.mate.system-monitor.gschema.xml.in:121
+#: src/org.mate.system-monitor.gschema.xml.in:125
+#: src/org.mate.system-monitor.gschema.xml.in:129
+#: src/org.mate.system-monitor.gschema.xml.in:133
+#: src/org.mate.system-monitor.gschema.xml.in:137
+#: src/org.mate.system-monitor.gschema.xml.in:141
+#: src/org.mate.system-monitor.gschema.xml.in:145
+#: src/org.mate.system-monitor.gschema.xml.in:149
+#: src/org.mate.system-monitor.gschema.xml.in:153
+#: src/org.mate.system-monitor.gschema.xml.in:157
+#: src/org.mate.system-monitor.gschema.xml.in:161
+#: src/org.mate.system-monitor.gschema.xml.in:165
+#: src/org.mate.system-monitor.gschema.xml.in:169
+#: src/org.mate.system-monitor.gschema.xml.in:173
+#: src/org.mate.system-monitor.gschema.xml.in:177
+#: src/org.mate.system-monitor.gschema.xml.in:181
+msgid "Default graph CPU color"
+msgstr "기본 CPU 그래프 색상"
+
+#: src/org.mate.system-monitor.gschema.xml.in:81
+msgid "Default graph cpu color"
+msgstr "기본 그래프 CPU 색"
+
+#: src/org.mate.system-monitor.gschema.xml.in:185
+msgid "Default graph memory color"
+msgstr "기본 메모리 그래프 색상"
+
+#: src/org.mate.system-monitor.gschema.xml.in:189
+msgid "Default graph swap color"
+msgstr "기본 그래프 스왑 색"
+
+#: src/org.mate.system-monitor.gschema.xml.in:193
+msgid "Default graph incoming network traffic color"
+msgstr "기본 그래프 입력 네트워크 색"
+
+#: src/org.mate.system-monitor.gschema.xml.in:197
+msgid "Default graph outgoing network traffic color"
+msgstr "기본 그래프 출력 네트워크 색"
+
+#: src/org.mate.system-monitor.gschema.xml.in:202
+msgid "Show network traffic in bits"
+msgstr "네트워트 소통량을 비트 단위로 표시 "
+
+#: src/org.mate.system-monitor.gschema.xml.in:212
+msgid "Process view sort column"
+msgstr "프로세스 보기 정렬 열"
+
+#: src/org.mate.system-monitor.gschema.xml.in:216
+msgid "Process view columns order"
+msgstr "프로세스 보기 열 순서"
+
+#: src/org.mate.system-monitor.gschema.xml.in:220
+msgid "Process view sort order"
+msgstr "프로세스 보기 정렬 순서"
+
+#: src/org.mate.system-monitor.gschema.xml.in:224
+msgid "Width of process 'Name' column"
+msgstr "프로세스 '이름' 열 너비"
+
+#: src/org.mate.system-monitor.gschema.xml.in:228
+msgid "Show process 'Name' column on startup"
+msgstr "시작할 때 프로세스 '이름' 열 표시"
+
+#: src/org.mate.system-monitor.gschema.xml.in:232
+msgid "Width of process 'User' column"
+msgstr "프로세스 '사용자' 열 너비"
+
+#: src/org.mate.system-monitor.gschema.xml.in:236
+msgid "Show process 'User' column on startup"
+msgstr "시작할 때 프로세스 '사용자' 열 표시"
+
+#: src/org.mate.system-monitor.gschema.xml.in:240
+msgid "Width of process 'Status' column"
+msgstr "프로세스 '상태' 열 너비"
+
+#: src/org.mate.system-monitor.gschema.xml.in:244
+msgid "Show process 'Status' column on startup"
+msgstr "시작할 때 프로세스 '상태' 열 표시"
+
+#: src/org.mate.system-monitor.gschema.xml.in:248
+msgid "Width of process 'Virtual Memory' column"
+msgstr "프로세스 '가상 메모리' 열 너비"
+
+#: src/org.mate.system-monitor.gschema.xml.in:252
+msgid "Show process 'Virtual Memory' column on startup"
+msgstr "시작할 때 프로세스 '가상 메모리' 열 표시"
+
+#: src/org.mate.system-monitor.gschema.xml.in:256
+msgid "Width of process 'Resident Memory' column"
+msgstr "프로세스 '상주 메모리' 열 너비"
+
+#: src/org.mate.system-monitor.gschema.xml.in:260
+msgid "Show process 'Resident Memory' column on startup"
+msgstr "시작할 때 프로세스 '상주 메모리' 열 표시"
+
+#: src/org.mate.system-monitor.gschema.xml.in:264
+msgid "Width of process 'Writable Memory' column"
+msgstr "프로세스 '쓰기 가능 메모리' 열 너비"
+
+#: src/org.mate.system-monitor.gschema.xml.in:268
+msgid "Show process 'Writable Memory' column on startup"
+msgstr "시작할 때 프로세스 '쓰기 가능 메모리' 열 표시"
+
+#: src/org.mate.system-monitor.gschema.xml.in:272
+msgid "Width of process 'Shared Memory' column"
+msgstr "프로세스 '공유 메모리' 열 너비"
+
+#: src/org.mate.system-monitor.gschema.xml.in:276
+msgid "Show process 'Shared Memory' column on startup"
+msgstr "시작할 때 프로세스 '공유 메모리' 열 표시"
+
+#: src/org.mate.system-monitor.gschema.xml.in:280
+msgid "Width of process 'X Server Memory' column"
+msgstr "프로세스 'X 서버 메모리' 열 너비"
+
+#: src/org.mate.system-monitor.gschema.xml.in:284
+msgid "Show process 'X Server Memory' column on startup"
+msgstr "시작할 때 프로세스 'X 서버 메모리' 열 표시"
+
+#. makepot: remove comment
+#: src/org.mate.system-monitor.gschema.xml.in:289
+msgid "Width of process '% CPU' column"
+msgstr "프로세스 'CPU %' 열 너비"
+
+#. makepot: remove comment
+#: src/org.mate.system-monitor.gschema.xml.in:294
+msgid "Show process '% CPU' column on startup"
+msgstr "시작할 때 프로세스 'CPU' 열 표시"
+
+#: src/org.mate.system-monitor.gschema.xml.in:298
+msgid "Width of process 'CPU Time' column"
+msgstr "프로세스 'CPU 시간' 열 너비"
+
+#: src/org.mate.system-monitor.gschema.xml.in:302
+msgid "Show process 'CPU Time' column on startup"
+msgstr "시작할 때 프로세스 'CPU 시간' 열 표시"
+
+#: src/org.mate.system-monitor.gschema.xml.in:306
+msgid "Width of process 'Started' column"
+msgstr "프로세스 '시작함' 열 표시"
+
+#: src/org.mate.system-monitor.gschema.xml.in:310
+msgid "Show process 'Started' column on startup"
+msgstr "시작할 때 프로세스 '시작함' 열 표시"
+
+#: src/org.mate.system-monitor.gschema.xml.in:314
+msgid "Width of process 'Nice' column"
+msgstr "프로세스 '우선 순위' 열 너비"
+
+#: src/org.mate.system-monitor.gschema.xml.in:318
+msgid "Show process 'Nice' column on startup"
+msgstr "시작할 때 프로세스 '우선 순위' 열 표시"
+
+#: src/org.mate.system-monitor.gschema.xml.in:322
+msgid "Width of process 'ID' column"
+msgstr "프로세스 'ID' 열 너비"
+
+#: src/org.mate.system-monitor.gschema.xml.in:326
+msgid "Show process 'ID' column on startup"
+msgstr "시작할 때 프로세스 'ID' 열 표시"
+
+#: src/org.mate.system-monitor.gschema.xml.in:330
+msgid "Width of process 'Security Context' column"
+msgstr "프로세스 '보안 컨텍스트' 열 너비"
+
+#: src/org.mate.system-monitor.gschema.xml.in:334
+msgid "Show process 'Security Context' column on startup"
+msgstr "시작시 프로세스 '보안 컨텍스트' 열 표시"
+
+#: src/org.mate.system-monitor.gschema.xml.in:338
+msgid "Width of process 'Command Line' column"
+msgstr "프로세스 '명령문' 열 너비"
+
+#: src/org.mate.system-monitor.gschema.xml.in:342
+msgid "Show process 'Command Line' column on startup"
+msgstr "시작할 때 프로세스 '명령문' 열 표시"
+
+#: src/org.mate.system-monitor.gschema.xml.in:346
+msgid "Width of process 'Memory' column"
+msgstr "프로세스 '메모리' 열 너비"
+
+#: src/org.mate.system-monitor.gschema.xml.in:350
+msgid "Show process 'Memory' column on startup"
+msgstr "시작할 때 프로세스 '메모리' 열 표시"
+
+#: src/org.mate.system-monitor.gschema.xml.in:354
+msgid "Width of process 'Waiting Channel' column"
+msgstr "프로세스 '대기 채널' 열 너비"
+
+#: src/org.mate.system-monitor.gschema.xml.in:358
+msgid "Show process 'Waiting Channel' column on startup"
+msgstr "프로세스 '대기 채널' 열을 시작할 때 표시합니다"
+
+#: src/org.mate.system-monitor.gschema.xml.in:362
+msgid "Width of process 'Control Group' column"
+msgstr "프로세스 '제어 그룹' 내용 폭"
+
+#: src/org.mate.system-monitor.gschema.xml.in:366
+msgid "Show process 'Control Group' column on startup"
+msgstr "시작시 프로세서 '제어 그룹' 내용 표시"
+
+#: src/org.mate.system-monitor.gschema.xml.in:370
+msgid "Width of process 'Unit' column"
+msgstr "프로세스 '단위' 내용 폭"
+
+#: src/org.mate.system-monitor.gschema.xml.in:374
+msgid "Show process 'Unit' column on startup"
+msgstr "시작시 프로세스 '단위' 내용 표시"
+
+#: src/org.mate.system-monitor.gschema.xml.in:378
+msgid "Width of process 'Session' column"
+msgstr "프로세스 '세션' 내용 폭"
+
+#: src/org.mate.system-monitor.gschema.xml.in:382
+msgid "Show process 'Session' column on startup"
+msgstr "시작시 프로세스 '세션' 내용 표시"
+
+#: src/org.mate.system-monitor.gschema.xml.in:386
+msgid "Width of process 'Seat' column"
+msgstr "프로세스 'Seat' 컬럼 폭"
+
+#: src/org.mate.system-monitor.gschema.xml.in:390
+msgid "Show process 'Seat' column on startup"
+msgstr "시작시 프로세스 'Seat' 컬럼 표시"
+
+#: src/org.mate.system-monitor.gschema.xml.in:394
+msgid "Width of process 'Owner' column"
+msgstr "프로세스 '소유자' 컬럼 폭"
+
+#: src/org.mate.system-monitor.gschema.xml.in:398
+msgid "Show process 'Owner' column on startup"
+msgstr "프로세스 '소유자' 컬럼 표시"
+
+#: src/org.mate.system-monitor.gschema.xml.in:402
+msgid "Width of process “Disk Write Total” column"
+msgstr ""
+
+#: src/org.mate.system-monitor.gschema.xml.in:406
+msgid "Show process “Disk Write Total” column on startup"
+msgstr "시작시 프로세스 \"디스크 쓰기 합계\" 열 표시"
+
+#: src/org.mate.system-monitor.gschema.xml.in:410
+msgid "Width of process “Disk Read Total” column"
+msgstr ""
+
+#: src/org.mate.system-monitor.gschema.xml.in:414
+msgid "Show process “Disk Read Total” column on startup"
+msgstr "시작시 프로세스 \"디스크 읽기 합계\" 열 표시"
+
+#: src/org.mate.system-monitor.gschema.xml.in:418
+msgid "Width of process “Disk Read” column"
+msgstr ""
+
+#: src/org.mate.system-monitor.gschema.xml.in:422
+msgid "Show process “Disk Read” column on startup"
+msgstr ""
+
+#: src/org.mate.system-monitor.gschema.xml.in:426
+msgid "Width of process “Disk Write” column"
+msgstr ""
+
+#: src/org.mate.system-monitor.gschema.xml.in:430
+msgid "Show process “Disk Write” column on startup"
+msgstr ""
+
+#: src/org.mate.system-monitor.gschema.xml.in:434
+msgid "Width of process “Priority” column"
+msgstr ""
+
+#: src/org.mate.system-monitor.gschema.xml.in:438
+msgid "Show process “Priority” column on startup"
+msgstr "시작할 때 프로세스 \"우선순위\" 열 표시"
+
+#: src/org.mate.system-monitor.gschema.xml.in:444
+msgid "Disk view sort column"
+msgstr "디스크 보기 정렬 열"
+
+#: src/org.mate.system-monitor.gschema.xml.in:448
+msgid "Disk view sort order"
+msgstr "디스크 보기 정렬 순서"
+
+#: src/org.mate.system-monitor.gschema.xml.in:452
+msgid "Disk view columns order"
+msgstr "디스크 보기 컬럼 순서"
+
+#: src/org.mate.system-monitor.gschema.xml.in:456
+msgid "Width of disk view 'Device' column"
+msgstr "디스크 보기 '장치' 의 열 너비"
+
+#: src/org.mate.system-monitor.gschema.xml.in:460
+msgid "Show disk view 'Device' column on startup"
+msgstr "시작시 디스크 보기 '장치' 의 열 표시"
+
+#: src/org.mate.system-monitor.gschema.xml.in:464
+msgid "Width of disk view 'Directory' column"
+msgstr "디스크 보기 '디렉토리' 의 열 너비"
+
+#: src/org.mate.system-monitor.gschema.xml.in:468
+msgid "Show disk view 'Directory' column on startup"
+msgstr "시작시 디스크 보기 '디렉토리' 의 열 표시"
+
+#: src/org.mate.system-monitor.gschema.xml.in:472
+msgid "Width of disk view 'Type' column"
+msgstr "디스크 보기 '형식' 의 열 너비"
+
+#: src/org.mate.system-monitor.gschema.xml.in:476
+msgid "Show disk view 'Type' column on startup"
+msgstr "시작시 디스크 보기 '형식' 의 열 표시"
+
+#: src/org.mate.system-monitor.gschema.xml.in:480
+msgid "Width of disk view 'SubVol' column"
+msgstr ""
+
+#: src/org.mate.system-monitor.gschema.xml.in:484
+msgid "Show disk view 'SubVol' column on startup"
+msgstr ""
+
+#: src/org.mate.system-monitor.gschema.xml.in:488
+msgid "Width of disk view 'Total' column"
+msgstr "디스크 보기 '총합' 의 열 너비"
+
+#: src/org.mate.system-monitor.gschema.xml.in:492
+msgid "Show disk view 'Total' column on startup"
+msgstr "시작시 디스크 보기 '총합' 의 열 표시"
+
+#: src/org.mate.system-monitor.gschema.xml.in:496
+msgid "Width of disk view 'Free' column"
+msgstr "디스크 보기 '남은 공간' 의 열 너비"
+
+#: src/org.mate.system-monitor.gschema.xml.in:500
+msgid "Show disk view 'Free' column on startup"
+msgstr "시작시 디스크 보기 '남은 공간' 의 열 표시"
+
+#: src/org.mate.system-monitor.gschema.xml.in:504
+msgid "Width of disk view 'Available' column"
+msgstr "디스크 보기 '사용 가능 공간' 의 열 너비"
+
+#: src/org.mate.system-monitor.gschema.xml.in:508
+msgid "Show disk view 'Available' column on startup"
+msgstr "시작시 디스크 보기 '사용 가능 공간' 의 열 표시"
+
+#: src/org.mate.system-monitor.gschema.xml.in:512
+msgid "Width of disk view 'Used' column"
+msgstr "디스크 보기 '사용한 공간' 의 열 너비"
+
+#: src/org.mate.system-monitor.gschema.xml.in:516
+msgid "Show disk view 'Used' column on startup"
+msgstr "시작시 디스크 보기 '사용한 공간' 의 열 표시"
+
+#: src/org.mate.system-monitor.gschema.xml.in:522
+msgid "Memory map sort column"
+msgstr "메모리 맵 정렬 컬럼"
+
+#: src/org.mate.system-monitor.gschema.xml.in:526
+msgid "Memory map sort order"
+msgstr "메모리 맵 정렬 순서"
+
+#: src/org.mate.system-monitor.gschema.xml.in:532
+msgid "Open files sort column"
+msgstr "파일 열기 정렬 컬럼"
+
+#: src/org.mate.system-monitor.gschema.xml.in:536
+msgid "Open files sort order"
+msgstr "파일 열기 정렬 순서"
+
+#: src/preferences.ui:18
+msgid "System Monitor Preferences"
+msgstr "시스템 정보 기본 설정"
+
+#: src/preferences.ui:106 src/preferences.ui:465
+msgid "Behavior"
+msgstr "동작"
+
+#: src/preferences.ui:135 src/preferences.ui:372 src/preferences.ui:498
+msgid "_Update interval in seconds:"
+msgstr "업데이트 간격(_U):"
+
+#: src/preferences.ui:165
+msgid "Enable _smooth refresh"
+msgstr "부드럽게 새로 고침(_S)"
+
+#: src/preferences.ui:180
+msgid "Alert before ending or _killing processes"
+msgstr "프로세스를 끝내거나 죽일 때 알림(_K)"
+
+#: src/preferences.ui:195
+msgid "_Divide CPU usage by CPU count"
+msgstr ""
+
+#: src/preferences.ui:232 src/preferences.ui:567
+msgid "Information Fields"
+msgstr "정보 필드"
+
+#: src/preferences.ui:258
+msgid "Process i_nformation shown in list:"
+msgstr "목록에 표시하는 프로세스 정보(_N):"
+
+#: src/preferences.ui:338
+msgid "Graphs"
+msgstr "그래프"
+
+#: src/preferences.ui:402
+msgid "_Show network speed in bits"
+msgstr ""
+
+#: src/preferences.ui:528
+msgid "Show _all file systems"
+msgstr "모든 파일 시스템 표시(_A)"
+
+#: src/preferences.ui:594
+msgid "File system i_nformation shown in list:"
+msgstr "목록에 표시하는 파일 시스템 정보(_N):"
+
+#: src/procactions.cpp:77
+#, c-format
+msgid ""
+"Cannot change the priority of process with PID %d to %d.\n"
+"%s"
+msgstr ""
+"프로세스의 우선 순위를 변경할 수 없습니다 PID %d 를 %d 로.\n"
+"%s"
+
+#: src/procactions.cpp:157
+#, c-format
+msgid ""
+"Cannot kill process with PID %d with signal %d.\n"
+"%s"
+msgstr ""
+"프로세스를 중단 시킬 수 없습니다 PID %d 인 시그널을 signal %d 로.\n"
+"%s"
+
+#. xgettext: primary alert message for killing single process
+#: src/procdialogs.cpp:80
+#, c-format
+msgid "Are you sure you want to kill the selected process “%s” (PID: %u)?"
+msgstr ""
+
+#. xgettext: primary alert message for ending single process
+#: src/procdialogs.cpp:85
+#, c-format
+msgid "Are you sure you want to end the selected process “%s” (PID: %u)?"
+msgstr ""
+
+#. xgettext: primary alert message for killing multiple processes
+#: src/procdialogs.cpp:92
+#, c-format
+msgid "Are you sure you want to kill the %d selected processes?"
+msgstr ""
+
+#. xgettext: primary alert message for ending multiple processes
+#: src/procdialogs.cpp:96
+#, c-format
+msgid "Are you sure you want to end the %d selected processes?"
+msgstr ""
+
+#. xgettext: secondary alert message
+#: src/procdialogs.cpp:104
+msgid ""
+"Killing a process may destroy data, break the session or introduce a "
+"security risk. Only unresponsive processes should be killed."
+msgstr ""
+"프로세스를 중단 시키면 데이터를 잃거나, 세션을 망치거나 보안에 위험을 일으킬 수 있습니다. 반응이 없는 프로세스만 중단 시키시길 "
+"권합니다."
+
+#. xgettext: secondary alert message
+#: src/procdialogs.cpp:110
+msgid ""
+"Ending a process may destroy data, break the session or introduce a security"
+" risk. Only unresponsive processes should be ended."
+msgstr ""
+"프로세스를 끝내면 데이터를 잃거나, 세션을 망치거나 보안에 위험을 일으킬 수 있습니다. 반응이 없는 프로세스만 끝내시길 권합니다."
+
+#: src/procdialogs.cpp:148 src/procdialogs.cpp:247
+#, c-format
+msgid "(%s Priority)"
+msgstr "(우선 순위: %s)"
+
+#: src/procdialogs.cpp:197
+#, c-format
+msgid "Change Priority of Process “%s” (PID: %u)"
+msgstr "\"%s\" 프로세스(PID: %u) 우선순위 바꾸기"
+
+#: src/procdialogs.cpp:200
+#, c-format
+msgid "Change Priority of %d Selected Processes"
+msgstr ""
+
+#: src/procdialogs.cpp:214
+msgid "Change _Priority"
+msgstr "우선순위 바꾸기(_P)"
+
+#: src/procdialogs.cpp:237
+msgid "_Nice value:"
+msgstr "NICE 값(_N):"
+
+#: src/procdialogs.cpp:252
+msgid "Note:"
+msgstr "주의:"
+
+#: src/procdialogs.cpp:253
+msgid ""
+"The priority of a process is given by its nice value. A lower nice value "
+"corresponds to a higher priority."
+msgstr "프로세스의 우선순위는 그 nice 값에 따라 결정됩니다. nice 값이 낮을 수록 우선순위가 높습니다."
+
+#: src/procdialogs.cpp:423
+msgid "Icon"
+msgstr "아이콘"
+
+#: src/proctable.cpp:253 src/procproperties.cpp:140
+msgid "Process Name"
+msgstr "프로세스 이름"
+
+#: src/proctable.cpp:254 src/procproperties.cpp:141
+msgid "User"
+msgstr "사용자"
+
+#: src/proctable.cpp:255 src/procproperties.cpp:142
+msgid "Status"
+msgstr "상태"
+
+#: src/proctable.cpp:256 src/procproperties.cpp:144
+msgid "Virtual Memory"
+msgstr "가상 메모리"
+
+#: src/proctable.cpp:257 src/procproperties.cpp:145
+msgid "Resident Memory"
+msgstr "상주 메모리"
+
+#: src/proctable.cpp:258 src/procproperties.cpp:146
+msgid "Writable Memory"
+msgstr "쓰기 가능한 메모리"
+
+#: src/proctable.cpp:259 src/procproperties.cpp:147
+msgid "Shared Memory"
+msgstr "공유 메모리"
+
+#: src/proctable.cpp:260 src/procproperties.cpp:149
+msgid "X Server Memory"
+msgstr "X 서버 메모리"
+
+#: src/proctable.cpp:261
+#, no-c-format
+msgid "% CPU"
+msgstr "% CPU"
+
+#: src/proctable.cpp:262 src/procproperties.cpp:154
+msgid "CPU Time"
+msgstr "CPU 시간"
+
+#: src/proctable.cpp:263 src/procproperties.cpp:155
+msgid "Started"
+msgstr "시작됨"
+
+#: src/proctable.cpp:264 src/procproperties.cpp:156
+msgid "Nice"
+msgstr "Nice"
+
+#: src/proctable.cpp:265 src/procproperties.cpp:158
+msgid "ID"
+msgstr "ID"
+
+#: src/proctable.cpp:266 src/procproperties.cpp:159
+msgid "Security Context"
+msgstr "보안 컨텍스트"
+
+#: src/proctable.cpp:267 src/procproperties.cpp:160
+msgid "Command Line"
+msgstr "명령문"
+
+#. xgettext: combined noun, the function the process is waiting in, see wchan
+#. ps(1)
+#: src/proctable.cpp:270 src/procproperties.cpp:161
+msgid "Waiting Channel"
+msgstr "대기 채널"
+
+#: src/proctable.cpp:271 src/procproperties.cpp:162
+msgid "Control Group"
+msgstr "제어 그룹"
+
+#: src/proctable.cpp:272
+msgid "Unit"
+msgstr "단위 "
+
+#: src/proctable.cpp:273
+msgid "Session"
+msgstr "세션"
+
+#. TRANSLATORS: Seat = i.e. the physical seat the session of the process
+#. belongs to, only
+#. for multi-seat environments. See
+#. http://en.wikipedia.org/wiki/Multiseat_configuration
+#: src/proctable.cpp:276
+msgid "Seat"
+msgstr "자리"
+
+#: src/proctable.cpp:277
+msgid "Owner"
+msgstr "소유자"
+
+#: src/proctable.cpp:278 src/procproperties.cpp:151
+msgid "Disk Read Total"
+msgstr ""
+
+#: src/proctable.cpp:279 src/procproperties.cpp:152
+msgid "Disk Write Total"
+msgstr ""
+
+#: src/proctable.cpp:280
+msgid "Disk Read"
+msgstr ""
+
+#: src/proctable.cpp:281
+msgid "Disk Write"
+msgstr ""
+
+#: src/proctable.cpp:282 src/procproperties.cpp:157
+msgid "Priority"
+msgstr "우선순위"
+
+#: src/proctable.cpp:1180
+#, c-format
+msgid "Load averages for the last 1, 5, 15 minutes: %0.2f, %0.2f, %0.2f"
+msgstr "최근 1분, 5분, 15분 사이의 평균 부하: %0.2f, %0.2f, %0.2f"
+
+#: src/procproperties.cpp:114 src/procproperties.cpp:123
+#: src/procproperties.cpp:159 src/procproperties.cpp:162 src/util.cpp:390
+#: src/util.cpp:462 src/util.cpp:500
+msgid "N/A"
+msgstr "없음"
+
+#: src/procproperties.cpp:270
+msgid "Process Properties"
+msgstr "프로세스 속성"
+
+#: src/procproperties.cpp:290
+#, c-format
+msgid "Properties of process \"%s\" (PID %u):"
+msgstr "\"%s\" 프로세스 속성(PID %u):"
+
+#. Translators: The first string parameter is release version (codename),
+#. * the second one is the architecture, 32 or 64-bit
+#: src/sysinfo.cpp:82
+#, c-format
+msgid "Release %s %s"
+msgstr "릴리즈 %s %s"
+
+#. Translators: The string parameter is the architecture, 32 or 64-bit
+#: src/sysinfo.cpp:89
+#, c-format
+msgid "%s Version"
+msgstr "%s 버전"
+
+#. Translators: The string parameter is release version (codename)
+#: src/sysinfo.cpp:94
+#, c-format
+msgid "Release %s"
+msgstr "릴리즈 %s"
+
+#. translators: This is the type of architecture, for example:
+#. * "64-bit" or "32-bit"
+#: src/sysinfo.cpp:137
+#, c-format
+msgid "%d-bit"
+msgstr "%d비트"
+
+#: src/sysinfo.cpp:298
+msgid "Unknown"
+msgstr "알 수 없음"
+
+#: src/sysinfo.cpp:979
+#, c-format
+msgid "Kernel %s"
+msgstr "커널 %s"
+
+#: src/sysinfo.cpp:992
+#, c-format
+msgid "MATE %s"
+msgstr "MATE %s"
+
+#. hardware section
+#: src/sysinfo.cpp:1006
+msgid "Hardware"
+msgstr "하드웨어"
+
+#: src/sysinfo.cpp:1011
+msgid "Memory:"
+msgstr "메모리:"
+
+#: src/sysinfo.cpp:1014
+msgid "Processor:"
+msgstr "프로세서:"
+
+#: src/sysinfo.cpp:1016
+msgid "Graphics:"
+msgstr "그래픽 카드:"
+
+#. disk space section
+#: src/sysinfo.cpp:1021
+msgid "System Status"
+msgstr "시스템 상태"
+
+#: src/sysinfo.cpp:1026
+msgid "Available disk space:"
+msgstr "사용 가능한 디스크 공간:"
+
+#: src/util.cpp:31
+msgid "Today %l:%M %p"
+msgstr "오늘 %p %l:%M"
+
+#: src/util.cpp:33
+msgid "Yesterday %l:%M %p"
+msgstr "어제 %p %l:%M"
+
+#: src/util.cpp:35
+msgid "%a %l:%M %p"
+msgstr "(%a) %p %l:%M"
+
+#: src/util.cpp:37
+msgid "%b %d %l:%M %p"
+msgstr "%b %d일 %p %l:%M "
+
+#: src/util.cpp:39
+msgid "%b %d %Y"
+msgstr "%Y년 %b %d일"
+
+#: src/util.cpp:57
+msgid "Running"
+msgstr "실행중"
+
+#: src/util.cpp:61
+msgid "Stopped"
+msgstr "중지"
+
+#: src/util.cpp:65
+msgid "Zombie"
+msgstr "좀비"
+
+#: src/util.cpp:69
+msgid "Uninterruptible"
+msgstr "가로챌 수 없음"
+
+#: src/util.cpp:73
+msgid "Sleeping"
+msgstr "휴식"
+
+#. xgettext: weeks, days
+#: src/util.cpp:128
+#, c-format
+msgid "%uw%ud"
+msgstr "%u주 %u일"
+
+#. xgettext: days, hours (0 -> 23)
+#: src/util.cpp:132
+#, c-format
+msgid "%ud%02uh"
+msgstr "%u일 %02u시간"
+
+#. xgettext: hours (0 -> 23), minutes, seconds
+#: src/util.cpp:136
+#, c-format
+msgid "%u:%02u:%02u"
+msgstr "%u:%02u:%02u"
+
+#. xgettext: minutes, seconds, centiseconds
+#: src/util.cpp:139
+#, c-format
+msgid "%u:%02u.%02u"
+msgstr "%u:%02u.%02u"
