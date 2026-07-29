@@ -96,17 +96,11 @@ person who installs it, on every install. A maintained fork means that
 work happens once, here, and anyone cloning this repo gets a tree that
 already builds.
 
-## Keeping this up to date with upstream
+## AI disclosure
 
-This repo tracks upstream as a remote:
-
-```bash
-git fetch upstream
-git merge upstream/master
-```
-
-Resolve any conflicts (most will be in files this fork doesn't touch,
-so conflicts should be rare), then rebuild and test before pushing.
+AI assistance was used in writing the patches to upstream MATE System
+Monitor and in drafting this documentation. All changes were reviewed
+by a human before being committed.
 
 ## License
 
